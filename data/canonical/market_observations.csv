@@ -1,0 +1,4 @@
+observation_id,instrument,asset_class,venue,metric,value,currency,observed_at,source_url,provider,data_quality
+btc-demo-001,BTC,cryptocurrency,Demo Exchange,market_cap,1325000000000,USD,2026-10-08T08:00:00Z,https://example.com/market/btc,demo_fixture,illustrative
+usdc-demo-001,USDC,stablecoin,Demo Aggregator,circulating_supply,74800000000,USD,2026-10-08T08:00:00Z,https://example.com/market/usdc,demo_fixture,illustrative
+rwa-demo-001,Tokenized Treasury Basket,tokenized_rwa,Demo Index,total_value_locked,18600000000,USD,2026-10-08T08:00:00Z,https://example.com/market/rwa,demo_fixture,illustrative

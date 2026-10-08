@@ -1,0 +1,42 @@
+AI agent for tracking virtual assets and digital currency developments across key markets
+Description:
+Develop an AI agent to monitor regulatory and market developments relating to virtual assets and digital currencies across major jurisdictions (HK, Sg, Mainland China, India, Japan, Australia, UK, EU). Outputs could include daily and thematic reports, as well as visuals/dashboards. Coverage would include stablecoins, cryptocurrencies, tokenized securities, and tokenized real-world assets (RWA), and, where relevant, central bank digital currencies (CBDCs).
+Methodology:
+(MVP) Data Collection & Pre processing
+•	Multi-Source Ingestion: Automated schedulers ingest primary regulatory publications (consultation papers, legal gazettes, press circulars from FSTB, HKMA, SFC, MAS, US SEC/CFTC, EU ESMA/EBA) alongside financial data streams via requests, ccxt, and yfinance.
+•	Parsing & Cleansing: Unstructured regulatory PDFs and web announcements are parsed to extract clean text while preserving statutory tables, legal references, and timeline metadata.
+•	Domain Entity Extraction: A pipeline combining spaCy and domain-specific Named Entity Recognition (NER), mapping text into structured attributes: Jurisdiction, Regulator, Asset Taxonomy (Stablecoins, Tokenized Deposits, RWA, CBDC), and Regulatory Lifecycle Stage.
+(MVP) Agentic Workflow
+•	Domain-Specific RAG: Regulatory and market texts are embedded and indexed in a vector store (e.g., pgvector) for dense semantic retrieval
+•	Model Context Protocol (MCP): Implements MCP as an open tool-interface standard, enabling the agent to autonomously connect to external data services, database lookups, and specialized parsing tools through a unified protocol.
+•	Multi-Agent Architecture: Critic agent to cross-check secondary news claims against primary legal sources to detect discrepancies, Analysis agent to translate raw text into potential impacts
+(MVP) AI Orchestration
+•	Workflow Management: A central orchestrator (e.g., LangGraph / Celery) manages stateful communication, cyclical reasoning loops, and task delegation among the specialized agents.
+•	Schema Standardization: The orchestrator transforms multi-agent outputs into uniform JSON schemas, populating key fields including executive summaries, compliance impact tags, and risk ratings for further visualization
+
+Chatbot
+•	Conversational Regulatory Analyst: A multi-turn dialogue interface allowing stakeholders to query cross-jurisdictional rules using natural language (e.g., comparing HKMA and MAS stablecoin reserve rules).
+•	Source-Grounded Answers: Responses deliver auditable answers supported by direct citations and excerpts from underlying regulatory filings.
+•	Institutional Impact Queries: Supports ad-hoc impact queries across core banking areas, including asset segregation, reserve custody, and cross-border payment rules.
+Data Visualization
+•	Interactive Dashboard: A Streamlit application providing interactive filtering by jurisdiction, date, and asset class.
+•	Jurisdictional Stance Heatmap: A multi-jurisdictional matrix illustrating regulatory openness, compliance friction, and policy status across target markets.
+•	Knowledge Graphs & Market Plots: networkx graph visualisations tracking policy evolution and cross-entity relationships, complemented by matplotlib/seaborn trend charts for stablecoin market caps and tokenized asset volumes.
+
+
+Project planning:
+Milestone	Deliverables	End of Date
+1.	Project Initiation	1)	Project Proposal
+2)	Literature Review	Sept 29, 2026
+2.	Database Design	3)	System Architecture & Database Schema Design
+4)	Data Collection & Pre-processing	Oct, 2026
+3.	Agentic Workflow Prototype	5)	Agentic Workflow (RAG, MCP) 
+6)	AI Orchestration
+7)	Prototype Dashboard Interface	Nov, 2026
+4.	Minimum Viable Product (MVP)	8)	Working MVP
+9)	Interim report	Nov 30, 2026
+5.	Full system integration	10)	Chatbot
+11)	Data Visualization (jurisdictional heatmap, knowledge graph)	Mar, 2027
+6.	Evaluation and Fine-tuning	12)	System testing & fine-tuning	Apr, 2027
+7.	Project closure	13)	Final report	May 28, 2027
+
