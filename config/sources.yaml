@@ -1,0 +1,55 @@
+sources:
+  - source_id: hkma
+    source_name: Hong Kong Monetary Authority
+    jurisdiction: Hong Kong
+    regulator: HKMA
+    source_type: primary_regulator
+    base_url: https://www.hkma.gov.hk/
+    discovery_url: https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stablecoin-issuers/
+    verified_at: '2026-10-16T04:06:19Z'
+    enabled: true
+    collector: hkma
+    asset_focus: [stablecoin]
+    scope:
+      allowed_hosts: [www.hkma.gov.hk]
+      target_urls:
+        - https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/stablecoin-issuers/Guideline_on_supervision_of_licensed_stablecoin_issuers_eng.pdf
+        - https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2024/20240717e3a1.pdf
+        - https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/07/20240717-3/
+      published_from: '2022-01-01'
+      max_documents: 3
+    http:
+      user_agent: 'VirtualAssetResearch/0.1 (academic single-document pilot)'
+      timeout_seconds: 30
+      max_retries: 2
+      min_interval_seconds: 1.0
+      max_redirects: 3
+      max_bytes: 10485760
+      trust_env: false
+    processing:
+      parser: hkma_regulatory_pdf_html_v3
+      cleaner: whitespace_preserving_v1
+      chunk_max_chars: 1800
+      asset_rule: stablecoin_word_v1
+    discovery:
+      enabled: true
+      rule: hkma_stablecoin_press_releases_v1
+      max_candidates: 20
+      max_batch: 10
+    notes: >-
+      Two approved English text PDFs and one HTML press release; one selected document per run. The first
+      target remains the default. Bounded press-release discovery is available separately;
+      no recursive crawl. TLS verification remains enabled. Direct connection avoids
+      the local system proxy TLS failure. No PDF creation-date publication inference.
+  - source_id: mas
+    source_name: Monetary Authority of Singapore
+    jurisdiction: Singapore
+    regulator: MAS
+    source_type: primary_regulator
+    base_url: null
+    discovery_url: null
+    verified_at: null
+    enabled: false
+    collector: null
+    asset_focus: [stablecoin]
+    notes: 'Planned only. Official endpoint and collector have not been verified.'
