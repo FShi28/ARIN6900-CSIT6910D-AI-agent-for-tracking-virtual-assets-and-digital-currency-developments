@@ -1,4 +1,14 @@
-﻿.venv/
+.venv/
 __pycache__/
 *.pyc
 .env
+
+# Local collected data and runtime state
+data/raw/
+data/processed/
+data/ingestion/
+data/discovery/
+data/exports/
+data/market/
+logs/
+.pytest_cache/

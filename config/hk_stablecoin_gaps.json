@@ -1,0 +1,122 @@
+{
+  "reviewed_at": "2026-11-21",
+  "scope": "English-language Hong Kong stablecoin framework from its 2022 foundational consultation onward; curated official sources and relevant professor-recommended commentary.",
+  "completeness": "Not a whole-site or all-publications completeness claim.",
+  "documents": [
+    {
+      "title": "Stablecoins Ordinance (Cap. 656), consolidated text",
+      "url": "https://www.elegislation.gov.hk/hk/cap656",
+      "status": "official_xml_quarantined",
+      "reason": "Official DoJ open-data archive contains cap_656_en_c/cap_656_20260910000000_en_c.xml with Stablecoins Ordinance body, but root identifier, metadata identifier and docNumber say cap155 / 155. Retained as evidence, excluded from chatbot retrieval pending independent verification.",
+      "next_step": "Verify against an official verified PDF or corrected XML; do not silently overwrite publisher metadata.",
+      "quarantine_record": "data/ingestion/hk_stablecoins/quarantine/cap656.json"
+    },
+    {
+      "title": "Stablecoins Ordinance, Ordinance No. 17 of 2025, as enacted",
+      "url": "https://www.legco.gov.hk/yr2025/english/ord/2025ord017-e.pdf",
+      "status": "download_failed",
+      "reason": "2026-11-21: requests and Windows Invoke-WebRequest both fail verified SSL/TLS. Certificate checks remain enabled; no alternate unofficial copy admitted.",
+      "next_step": "Retry after certificate-chain repair or use a verified official Gazette download."
+    },
+    {
+      "title": "Stablecoins Ordinance (Commencement) Notice, L.N. 125 of 2025",
+      "url": "https://www.gld.gov.hk/egazette/english/gazette/file.php?year=2025&vol=29&no=23&extra=0&type=2&number=125",
+      "status": "full_text_not_collected",
+      "reason": "Legacy endpoint redirects to redesigned Gazette with interactive notices and Turnstile verification. No bypass attempted. LegCo commencement-notice PDF mirror also fails TLS verification.",
+      "next_step": "Verify the new official Gazette download URL.",
+      "alternative_official_url": "https://www.legco.gov.hk/yr2025/english/subleg/negative/2025ln125-e.pdf"
+    },
+    {
+      "title": "Circular on provision of Relevant Stablecoin service by virtual asset trading platforms and licensed corporations",
+      "url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=26EC26",
+      "status": "full_text_collected",
+      "reason": "Verified original HTML headline, publication date and .newsc body; full text ingested on 2026-11-20.",
+      "next_step": "Fixed-link refresh and bounded current-year SFC discovery implemented; broad-title circulars still require review."
+    },
+    {
+      "title": "Joint circular on intermediaries virtual asset-related activities (22 December 2023)",
+      "url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=23EC67",
+      "status": "official_maintenance_page",
+      "reason": "2026-11-21: returned HTML is SFC system-maintenance notice, not circular. Preserved raw evidence but excluded from retrieval.",
+      "next_step": "Retry official source after maintenance; keep supplementary relation target_not_collected until verified.",
+      "evidence_record": "data/discovery/hk_completion/sfc23EC67.json"
+    }
+  ],
+  "professor_channels": [
+    {
+      "publisher": "Charltons",
+      "hk_status": "collected",
+      "role": "Legal commentary; three relevant publications including the previously collected licensing article."
+    },
+    {
+      "publisher": "Linklaters",
+      "hk_status": "collected",
+      "role": "Legal commentary on the draft HKMA stablecoin guidelines."
+    },
+    {
+      "publisher": "ASIFMA",
+      "hk_status": "collected",
+      "role": "Two consultation responses; industry positions, not rules."
+    },
+    {
+      "publisher": "EY",
+      "hk_status": "collected",
+      "role": "Global stablecoin comparison including Hong Kong; secondary context, not exclusively Hong Kong."
+    },
+    {
+      "publisher": "Ashurst",
+      "hk_status": "article_link_migrated_requires_review",
+      "url": "https://www.ashurst.com/en/insights/global-digital-assets-digest/",
+      "note": "Old article redirects to ashurstperkinscoie.com and resolves to generic Insights directory (two h1 headings). Not the report; excluded.",
+      "reviewed_at": "2026-11-21"
+    },
+    {
+      "publisher": "DLA Piper",
+      "hk_status": "access_limited",
+      "note": "HTTP 429 on 2026-11-21; stopped source requests. Not counted as collected.",
+      "url": "https://www.dlapiper.com/en/news/2024/03/e-hkd-tokenised-deposits-and-stablecoins-adoption-may-empower-hong-kongs-future-economic-development",
+      "reviewed_at": "2026-11-21"
+    },
+    {
+      "publisher": "Deloitte",
+      "hk_status": "full_text_collected",
+      "role": "Q3 2026 regional regulatory report includes a Hong Kong stablecoin paragraph; other jurisdictions must not be treated as Hong Kong rules; fixed-URL refresh only",
+      "url": "https://www.deloitte.com/southeast-asia/en/Industries/financial-services/perspectives/frontier-technology-regulatory-updates-financial-services-q3-2026.html",
+      "reviewed_at": "2026-11-21"
+    },
+    {
+      "publisher": "KPMG",
+      "hk_status": "full_text_collected",
+      "role": "Digital payments article from Hong Kong Banking Report 2026; mixed digital-asset background; fixed-URL refresh only",
+      "url": "https://kpmg.com/cn/en/insights/2026/06/hong-kong-banking-report-2026/digital-payments.html",
+      "reviewed_at": "2026-11-21"
+    },
+    {
+      "publisher": "PwC",
+      "hk_status": "full_text_extraction_restricted",
+      "reviewed_at": "2026-11-21",
+      "url": "https://www.pwchk.com/en/research-and-insights/digital-assets/stablecoins-in-hk-mar2026.pdf",
+      "note": "Downloaded successfully; PDF prohibits extraction under existing admission checks. No bypass; excluded from corpus."
+    },
+    {
+      "publisher": "BIS",
+      "hk_status": "global_context_only_not_in_this_export"
+    },
+    {
+      "publisher": "FSB",
+      "hk_status": "global_context_only_not_in_this_export"
+    },
+    {
+      "publisher": "IOSCO",
+      "hk_status": "global_context_only_not_in_this_export"
+    },
+    {
+      "publisher": "IMF",
+      "hk_status": "global_context_only_not_in_this_export"
+    },
+    {
+      "publisher": "GFMA",
+      "hk_status": "global_context_only_not_in_this_export"
+    }
+  ]
+}

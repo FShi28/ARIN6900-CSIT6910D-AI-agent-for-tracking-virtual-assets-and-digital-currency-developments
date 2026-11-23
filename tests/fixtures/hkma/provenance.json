@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-15T07:58:04Z",
+  "listing": {
+    "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stablecoin-issuers/",
+    "sha256": "16e93b1d1f06077059f72bd377a1661189049ed37e94474fbb7dd0bcf57bc423"
+  },
+  "guideline": {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/stablecoin-issuers/Guideline_on_supervision_of_licensed_stablecoin_issuers_eng.pdf",
+    "sha256": "80bacdec11851889f83ca675158d20c053eba5533e5e9065ebb607eb776d60f4"
+  },
+  "purpose": "Official snapshots for offline parser and discovery tests; not production records."
+}

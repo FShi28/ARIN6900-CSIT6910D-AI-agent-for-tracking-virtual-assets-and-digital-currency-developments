@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "discovered_1.html",
+    "source_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
+    "downloaded_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
+    "collected_at": "2026-10-16T04:58:29Z",
+    "sha256": "9696250922c3631aa42d47b49f2bfe4bf11ee7e1533fcdbab13789d6c308f688"
+  },
+  {
+    "filename": "discovered_2.html",
+    "source_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/08/20250814-8/",
+    "downloaded_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/08/20250814-8/",
+    "collected_at": "2026-10-16T04:58:30Z",
+    "sha256": "3bed28ddc14122412995cb1ef61e051e3c9a02d59afa0df0a4737ceadb8bd335"
+  },
+  {
+    "filename": "discovered_3.html",
+    "source_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/",
+    "downloaded_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/",
+    "collected_at": "2026-10-16T04:58:31Z",
+    "sha256": "5d06c6f46c5a17b738eba8cc272b95aeef450cb337723d6fccc7ee4ccd446603"
+  }
+]

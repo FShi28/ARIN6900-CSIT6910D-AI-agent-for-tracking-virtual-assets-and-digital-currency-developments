@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-15T08:24:26Z",
+  "listing": {
+    "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stablecoin-issuers/",
+    "sha256": "dfbebc3a705a2b73beaf8546ac8ad974c58969b57f84741b02dd14c89f2d5369"
+  },
+  "consultation_conclusions": {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2024/20240717e3a1.pdf",
+    "sha256": "40d4d97ce1043886df0dc9449a79a6cf77bd0f298f7397425ebf9c1691228789"
+  },
+  "purpose": "Official snapshots for two-document offline regression; no production record import."
+}

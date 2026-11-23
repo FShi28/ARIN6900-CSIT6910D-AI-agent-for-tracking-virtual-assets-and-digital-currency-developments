@@ -29,6 +29,18 @@ and are not loaded by the current app.
   obligations or assessed impacts. Risk, confidence and review remain unassessed.
 - Keyword evidence lookup is available. No LLM, Agent, RAG or generated answers
   are included in this version.
+- **Research Library** filters publications by topic and publisher. It includes
+  cryptocurrencies, stablecoins, CBDCs, tokenised deposits and securities, real-world
+  assets, DeFi and NFTs. Sources include law firms, the Big Four, trade associations,
+  regulators and policy institutions. Ask the Analyst cites PDF pages, article text,
+  or an explicitly labelled source note. The DLA Piper entry is a curated note with
+  a publisher link. The regulatory dashboard counts its SQLite corpus separately.
+
+The scheduled collection checks the PDF and HTML publications in `config/research_sources.json`.
+To refresh only these publications, run `python src/research_publications.py`.
+Successful downloads keep the original file under `data/raw/` and publish the
+searchable snapshot under `data/ingestion/research/`. A failed refresh keeps the
+previous snapshot available. Dates shown in the library are publication dates.
 
 ## Setup and run
 
@@ -181,3 +193,8 @@ JSONL uses one JSON object per line. Dates and timestamps use ISO 8601; machine 
 - [`requirements-app.txt`](requirements-app.txt): complete application dependency entry point.
 - [`data/canonical/`](data/canonical): preserved fictional demo fixtures.
 - [`proposal.txt`](proposal.txt): original project proposal.
+## Hong Kong stablecoin data collection
+
+Run `python scripts/collect_hk_stablecoins.py` to refresh the reviewed Hong Kong
+stablecoin corpus and export a unified document/chunk dataset. Use `--export-only`
+for an offline export. See [scope, sources, known gaps and data locations](docs/hk_stablecoin_data.md).

@@ -92,7 +92,7 @@ def timestamp(value):
     return datetime.fromtimestamp(value, timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
-def collect_once(root, db_path):
+def collect_once(root, db_path, *, include_supplementary=True, source_ids=None):
     """Reuse bounded ingestion and one rate-limited session per enabled source."""
     sources = load_sources(root / 'config/sources.yaml')
     if not db_path.exists():
@@ -101,6 +101,8 @@ def collect_once(root, db_path):
         pass
     results, remaining, stopped = [], 0, False
     for source_id, source in sources.items():
+        if source_ids is not None and source_id not in source_ids:
+            continue
         if not source['enabled']:
             continue
         log = RunLog(root, source_id)
@@ -145,9 +147,21 @@ def collect_once(root, db_path):
             stopped = stopped or isinstance(exc, SourceAccessError)
         finally:
             shared.close()
-    if (root / 'config/regional_sources.json').exists():
+    if include_supplementary and (root / 'config/regional_sources.json').exists():
         from regional_ingestion import collect_regions
         results.extend(collect_regions(root))
+    if include_supplementary and ((root / 'config/research_sources.json').exists()
+                                  or (root / 'config/hk_stablecoin_sources.json').exists()):
+        from research_publications import collect_research
+        results.extend(collect_research(root))
+    if include_supplementary and (root / 'config/hk_discovery.json').exists():
+        from urllib.parse import urlsplit
+        from hk_discovery import discover_hk
+        from hk_stablecoin_data import export_corpus
+        blocked = {urlsplit(r['source_url']).hostname for r in results
+                   if r.get('error_type') == 'SourceAccessError'}
+        results.extend(discover_hk(root, blocked))
+        export_corpus(root)
     counts = {key: sum(item['status'] == key for item in results) for key in ('created', 'reused', 'failed')}
     return {'status': 'partial_failure' if counts['failed'] else 'success',
             'counts': counts, 'remaining': remaining, 'stopped_for_source_access': stopped,

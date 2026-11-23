@@ -11,11 +11,31 @@ import streamlit as st
 from dashboard_data import load_corpus
 from live_documents import collection_service
 from market_data import market_snapshot
+from research_publications import load_publications
 
 DEVELOPMENT_FIELDS = ['development_id', 'document_id', 'jurisdiction', 'regulator', 'asset_class',
                       'lifecycle_stage', 'obligation_summary', 'risk_rating', 'confidence',
                       'review_status', 'evidence_chunk_ids']
 CHUNK_FIELDS = ['chunk_id', 'document_id', 'text', 'citation']
+
+
+def research_chunks(publications):
+    rows = []
+    for pub in publications:
+        for chunk in pub['chunks']:
+            page = chunk['page_start']
+            location = f'p. {page}' if page else ('Curated source note' if pub.get('format') == 'source_note' else 'Article text')
+            url = f"{pub['url']}#page={page}" if page else pub['url']
+            label = f"{pub['publisher']} · {pub['kind']} · {pub['title']} · {pub['published']} · {location}"
+            rows.append(dict(chunk_id=chunk['chunk_id'], document_id=pub['url'],
+                             text=html.escape(chunk['text']), citation=SimpleNamespace(
+                                 label=html.escape(label), url=html.escape(url, quote=True))))
+    return pd.DataFrame(rows, columns=CHUNK_FIELDS)
+
+
+@st.cache_data(ttl=60, show_spinner=False)
+def research_library(root):
+    return load_publications(Path(root))
 
 
 def regulatory_frames(data):

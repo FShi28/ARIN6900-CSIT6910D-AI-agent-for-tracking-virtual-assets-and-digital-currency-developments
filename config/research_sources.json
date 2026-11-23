@@ -1,0 +1,162 @@
+[
+  {
+    "publisher": "Charltons",
+    "kind": "Legal commentary",
+    "topic": "Stablecoins",
+    "title": "HKMA Issues First Stablecoin Issuer Licences",
+    "published": "2026-04-23",
+    "url": "https://www.charltonslaw.com/legal/newsletters/725/hkma-issues-first-stablecoin-issuer-licences.pdf",
+    "publication_page": "https://www.charltonslaw.com/news/newsletters/hong-kong-law/",
+    "related_announcement": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/"
+  },
+  {
+    "publisher": "BIS",
+    "kind": "Policy research",
+    "topic": "CBDC",
+    "title": "Central bank digital currencies: System design",
+    "published": "2024-11-26",
+    "url": "https://www.bis.org/publications/central-bank-digital-currencies-system-design.pdf",
+    "publication_page": "https://www.bis.org/publications/central-bank-digital-currencies-system-design"
+  },
+  {
+    "publisher": "ASIFMA",
+    "kind": "Industry report",
+    "topic": "Tokenised securities",
+    "title": "Tokenised Securities: A Roadmap for Market Participants and Regulators",
+    "published": "2019-11",
+    "url": "https://www.asifma.org/wp-content/uploads/2019/11/tokenised-securities-a-roadmap-for-market-participants-final.pdf",
+    "publication_page": "https://www.asifma.org/research/tokenised-securities-a-roadmap-for-market-participants-and-regulators/"
+  },
+  {
+    "publisher": "Linklaters",
+    "kind": "Deal announcement",
+    "topic": "Tokenised securities",
+    "title": "Linklaters advises on Korea’s first digitally native bond issuance",
+    "published": "2026-03-18",
+    "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/march/linklaters-advises-on-koreas-first-digitally-native-bond-issuance",
+    "body_selector": "main [class*='ColumnSplitter_column-splitter--30-70'] > div:last-child .ck-content",
+    "format": "html"
+  },
+  {
+    "publisher": "Ashurst",
+    "kind": "Industry research",
+    "topic": "Tokenised securities",
+    "title": "The Securities Industry: A Digital Future Beckons",
+    "published": "2020-01",
+    "url": "https://www.ashurstperkinscoie.com/-/media/ashurst/documents/news-and-insights/insights/2020/jan/the-securities-industry--a-digital-future-beckons.pdf"
+  },
+  {
+    "publisher": "DLA Piper",
+    "kind": "Legal commentary",
+    "topic": "Real-world assets (RWA)",
+    "title": "Digital assets: Tokenization developments in a fast-developing UAE regulatory environment",
+    "published": "2026-10-06",
+    "url": "https://www.dlapiper.com/en/insights/publications/2026/10/digital-assets-tokenization-developments",
+    "format": "source_note",
+    "note": "Publisher-linked research note: DLA Piper compares the treatment of tokenised investments in the UAE’s financial centres and describes the Dubai real estate tokenization pilot. The examples include fund units, bonds and real estate."
+  },
+  {
+    "publisher": "EY",
+    "kind": "Industry report",
+    "topic": "Real-world assets (RWA)",
+    "title": "An introduction to tokens and tokenization",
+    "published": "2026-01",
+    "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-29607-261us-01-26-2026.pdf"
+  },
+  {
+    "publisher": "KPMG",
+    "kind": "Accounting handbook",
+    "topic": "Cryptocurrencies",
+    "title": "Crypto assets",
+    "published": "2026-04",
+    "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2026/crypto-assets.pdf"
+  },
+  {
+    "publisher": "PwC",
+    "kind": "Industry report",
+    "topic": "Cryptocurrencies",
+    "title": "6th Annual Global Crypto Hedge Fund Report",
+    "published": "2024-10",
+    "url": "https://www.pwc.com/gx/en/industries/financial-services/assets/6th-annual-global-crypto-hedge-fund-report.pdf"
+  },
+  {
+    "publisher": "Deloitte",
+    "kind": "Industry report",
+    "topic": "Real-world assets (RWA)",
+    "title": "From vaults to virtual: Digital revolution in the financial system",
+    "published": "2026-01",
+    "url": "https://www.deloitte.com/content/dam/assets-zone3/us/en/docs/services/consulting/2026/bda-pov-from-vaults-to-virtual-vfinal.pdf"
+  },
+  {
+    "publisher": "FSB",
+    "kind": "Policy research",
+    "topic": "DeFi",
+    "title": "The Financial Stability Risks of Decentralised Finance",
+    "published": "2023-02-16",
+    "url": "https://www.fsb.org/uploads/P160223.pdf"
+  },
+  {
+    "publisher": "IOSCO",
+    "kind": "Policy recommendations",
+    "topic": "DeFi",
+    "title": "Final Report with Policy Recommendations for Decentralized Finance (DeFi)",
+    "published": "2023-12",
+    "url": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf"
+  },
+  {
+    "publisher": "IMF",
+    "kind": "Policy research",
+    "topic": "Cryptocurrencies",
+    "title": "Capital Flow Management Measures in the Digital Age: Challenges of Crypto Assets",
+    "published": "2022-05",
+    "url": "https://www.imf.org/-/media/files/publications/ftn063/2022/english/ftnea2022005.pdf"
+  },
+  {
+    "publisher": "GFMA",
+    "kind": "Industry report",
+    "topic": "Tokenised securities",
+    "title": "The Impact of Distributed Ledger Technology in Capital Markets",
+    "published": "2025",
+    "url": "https://www.gfma.org/wp-content/uploads/2025/08/1.-full-report-impact-of-dlt-in-cap-mkts-final-1.pdf"
+  },
+  {
+    "publisher": "ESMA",
+    "kind": "Regulatory research",
+    "topic": "Cryptocurrencies",
+    "title": "Crypto assets: Market structures and EU relevance",
+    "published": "2024-04-10",
+    "url": "https://www.esma.europa.eu/sites/default/files/2024-04/ESMA50-524821-3153_risk_article_crypto_assets_market_structures_and_eu_relevance.pdf"
+  },
+  {
+    "publisher": "USPTO and US Copyright Office",
+    "kind": "Government research",
+    "topic": "NFTs",
+    "title": "Non-Fungible Tokens and Intellectual Property: A Report to Congress",
+    "published": "2024-03",
+    "url": "https://www.uspto.gov/sites/default/files/documents/Joint-USPTO-USCO-Report-on-NFTs-and-Intellectual-Property.pdf"
+  },
+  {
+    "publisher": "BIS",
+    "kind": "Policy research",
+    "topic": "Tokenised deposits",
+    "title": "Stablecoins versus tokenised deposits: implications for the singleness of money",
+    "published": "2023-04-11",
+    "url": "https://www.bis.org/publications/bulletin-73-stablecoins-versus-tokenised-deposits-implications-singleness-money.pdf"
+  },
+  {
+    "publisher": "FSB",
+    "kind": "Policy research",
+    "topic": "Real-world assets (RWA)",
+    "title": "The Financial Stability Implications of Tokenisation",
+    "published": "2024-10-22",
+    "url": "https://www.fsb.org/uploads/P221024-2.pdf"
+  },
+  {
+    "publisher": "Charltons",
+    "kind": "Legal commentary",
+    "topic": "Cryptocurrencies",
+    "title": "HKEX Issues Guidance for HKEX Listed Issuers Navigating Opportunities in the Digital Asset Landscape",
+    "published": "2025-12",
+    "url": "https://www.charltonslaw.com/legal/newsletters/699/hkex-issues-guidance-for-hkex-listed-issuers-navigating-opportunities-in-the-digital-asset-landscape.pdf"
+  }
+]

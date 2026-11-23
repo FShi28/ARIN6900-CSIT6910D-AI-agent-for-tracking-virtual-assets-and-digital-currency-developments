@@ -1,0 +1,16 @@
+[
+  {
+    "file": "26EC26.html",
+    "source_url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=26EC26",
+    "original_sha256": "5d2dcc72f2632fddd4a90a7213a01b9550ed5703a0a86b636f87a948e3a49603",
+    "verified_on": "2026-11-20",
+    "transformation": "Retained #content, removed unrelated outer markup"
+  },
+  {
+    "file": "25EC44.html",
+    "source_url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=25EC44",
+    "original_sha256": "fb240ed379a58e2a43f0ece96f5509a627e51fce79af728f2de9254a698fdcde",
+    "verified_on": "2026-11-20",
+    "transformation": "Retained #content, removed unrelated outer markup"
+  }
+]

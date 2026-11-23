@@ -35,6 +35,13 @@ class Fetcher:
         self.session.close()
 
     def get(self, url, expected_type):
+        return self._request(url, expected_type)
+
+    def post_json(self, url, payload):
+        """Read-only public search APIs; redirects are rejected for POST."""
+        return self._request(url, 'application/json', payload)
+
+    def _request(self, url, expected_type, payload=None):
         current = allowed_url(url, self.hosts)
         redirects = 0
         attempts = 0
@@ -45,10 +52,14 @@ class Fetcher:
             retry_reason = None
             response = None
             try:
-                response = self.session.get(current, timeout=self.options['timeout_seconds'],
-                                            allow_redirects=False, stream=True, verify=True)
+                kwargs = dict(timeout=self.options['timeout_seconds'], allow_redirects=False,
+                              stream=True, verify=True)
+                response = (self.session.get(current, **kwargs) if payload is None else
+                            self.session.post(current, json=payload, **kwargs))
                 status = response.status_code
                 if status in (301, 302, 303, 307, 308):
+                    if payload is not None:
+                        raise PipelineError('Search POST redirect requires review')
                     if redirects >= self.options['max_redirects'] or not response.headers.get('Location'):
                         raise PipelineError('Invalid or excessive redirects')
                     current = allowed_url(urljoin(current, response.headers['Location']), self.hosts)

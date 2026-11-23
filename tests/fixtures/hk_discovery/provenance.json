@@ -1,0 +1,37 @@
+[
+  {
+    "fixture": "hkma.html",
+    "source_sha256": "4d0bca8edbe27b006cb9168a0c39edd993e8228705065962611a19c61f5a1122",
+    "selector": ".template-top-background.full-content-printer",
+    "verification_date": "2026-11-20",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stablecoin-issuers/"
+  },
+  {
+    "fixture": "charltons.html",
+    "source_sha256": "2d706876cb90b7bed2bcf6b50899262b525c50571055e7888a35bcb780d7895a",
+    "selector": ".newsletter_card_ui",
+    "verification_date": "2026-11-20",
+    "source_url": "https://www.charltonslaw.com/news/newsletters/hong-kong-law/"
+  },
+  {
+    "fixture": "asifma-search.html",
+    "source_sha256": "3f46a1e7826b5982a3889f3cd400635ba4abf9619cfa111693499f8bbdd0497a",
+    "selector": "section.mk-search-loop",
+    "verification_date": "2026-11-20",
+    "source_url": "https://www.asifma.org/?s=stablecoin"
+  },
+  {
+    "fixture": "ll-hk-search.html",
+    "source_sha256": "039a1567185877924e098527e60f9cc23562287547c69635a2162d39b803a1dc",
+    "selector": "article.block-post",
+    "verification_date": "2026-11-20",
+    "source_url": "https://financialregulation.linklaters.com/?SearchQuery=Hong%20Kong%20stablecoin"
+  },
+  {
+    "fixture": "ll-article.html",
+    "source_sha256": "12d6a732e1efeb56f794905ebb664b7857a403f93daef3d4067bc25950aef7c4",
+    "selector": "article.post-view",
+    "verification_date": "2026-11-20",
+    "source_url": "https://financialregulation.linklaters.com/post/102o6jy/asia-financial-regulatory-bulletin-october-2026"
+  }
+]

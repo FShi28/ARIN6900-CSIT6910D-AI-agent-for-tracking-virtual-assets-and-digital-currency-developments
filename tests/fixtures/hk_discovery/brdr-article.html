@@ -1,0 +1,3491 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>HKMA Banking Regulatory Document Repository</title>
+    
+
+
+
+
+<meta charset="UTF-8">
+<!-- <title>BRDR</title> -->
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate">
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="pragma" content="no-cache">
+
+<link href="/scripts/plugin/jquery-ui-1.13.2/jquery-ui.min.css" rel="stylesheet">
+<link href="/css/bootstrap-css/bootstrap.min.css" rel="stylesheet" />
+<link href="/css/select2.min.css" rel="stylesheet" />
+
+<link rel="icon" type="image/x-icon" href="/img/HKMA-logo-mobile.svg">
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/extend.css">
+<link rel="stylesheet" media="print" href="/css/print.css">
+
+<!--  
+<link rel="shortcut icon" href="#">
+-->
+<script src="/scripts/js/utility.js?v=2"></script>
+
+<script src="/scripts/plugin/jquery-3.7.1.min.js"></script>
+<script src="/scripts/plugin/cdnjs/select2.min.js"></script>
+
+<!-- 
+<script src="/scripts/js/bootstrap-js/bootstrap.js"></script>
+-->
+
+<script src="/scripts/js/bootstrap-js/bootstrap.bundle.min.js"></script> 
+<script src="/scripts/plugin/jquery-ui-1.13.2/jquery-ui.min.js"></script>   
+<script src="/scripts/plugin/serializer-json/jquery.serializejson.min.js"></script>
+
+<script>
+ var contextPath = "";
+ 
+ 
+</script>
+
+ </head>
+<body>
+
+	<!-- header -->
+	<header class="dont-print">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="position-fixed bg-white py-3 pb-lg-0 w-100 header">
+
+
+	    <div class="container-xxl">
+	    
+	    <div class="row row-cols-auto col-12 justify-content-between">
+	            <div class="header-brand">
+                	<div class="header-logo d-flex">
+                	
+                		<a href="https://www.hkma.gov.hk/eng"><img id="hkma-logo-desktop" alt="HKMA Logo" class="" src="/img/hkma-logo.png" title="Hong Kong Monetary Authority 香港金融管理局"></a>
+                		<a href="/eng/main"><img id="brdr-logo-desktop" class="desktop" src="/img/logo.png" alt="BRDR Logo" title="Banking Regulatory Document Repository 銀行監管文件資料庫"></a>
+                		<a href="/eng/main"><img id="brdr-logo-mobile" class="mobile" src="/img/HKMA-logo-mobile.svg" alt="HKMA Logo" title="Hong Kong Monetary Authority 香港金融管理局"></a>
+
+                	</div>
+                </div>
+                    
+                <div class="heading3"></div>
+                
+                <div class="mobile">
+                
+                <button class="p-0 icon-frame size-32 header-search-open-btn" title="header-search-open-btn">
+
+                	<img class="icon-img" src="/img/icon-search.jpg" alt="Search Icon">
+
+                </button>
+                
+                <div class="menu-mobile ">
+                	<!-- 
+                	<input type="checkbox" id="menu-icon-checkbox" class="menu-icon-checkbox visuallyHidden">
+        			<label class="w-100 h-100" for="menu-icon-checkbox">
+            			<div class="hamburger">
+                			<span class="bar bar1"></span>
+                			<span class="bar bar2"></span>
+                			<span class="bar bar3"></span>
+                			<span class="bar bar4"></span>
+            			</div>
+        			</label>
+                	  -->
+               	
+               	
+               	
+              	<button class="p-0 icon-frame size-32 menu-open-btn" title="menu-open-btn">
+
+              		<img class="icon-img" src="/img/icon-menu.jpg" alt="Menu Icon">
+
+                </button>
+                
+                <button class="p-0 menu-close-btn" style="display: none" title="menu-open-btn">
+             		<div class="icon-frame">
+             			<span class="icon icon-x-circle svg-primary"></span>
+             		</div>
+             	</button>
+                
+                
+                </div>
+                    
+                </div>
+                    
+	            <div class="nav-option ">
+	            
+	            <input id="jspAiFacing" value="false" type="hidden" />
+	            <input id="jspLang" value="ENG" type="hidden"/>
+	            <input id="jsDateFormat" value="dd M yy" type="hidden"/>
+                        
+                <ul class="d-flex align-items-center list-unstyled m-0 p-0 gap-8">
+
+                
+                	
+		                <li class="d-flex align-items-center">
+		                 	<div class="icon-frame">
+		                 	
+		             			
+		             				<a id="langChiLink" href="" title="繁體中文版">
+		                 			繁
+		                 			</a>
+		             			
+		             			
+		             		
+		                 	</div>
+		                 </li>
+		                 <li class="d-flex align-items-center">
+		                   	<div class="icon-frame">
+		                   		
+		               			
+		               			
+		               				<a id="langGbChiLink" href="" title="简体中文版">
+		                   			简
+		                   			</a>
+		               			
+		               			
+		                   	</div>
+		                 </li>
+                	
+                	
+                	
+                
+                
+                
+                    <li class="d-flex align-items-center">
+                    	<button class="p-0 header-search-open-btn" title="header-search-open-btn">
+                    		<div class="icon-frame">
+
+                    			<img class="icon-img" src="/img/icon-zoom-2.png" title="Search" alt="Search Icon">
+
+                    		</div>
+                    	</button>
+                    	<button class="p-0 header-search-close-btn" style="display: none" title="header-search-close-btn">
+                    		<div class="icon-frame">
+                    			<span class="icon icon-x-circle svg-grey"></span>
+                    		</div>
+                    	</button>
+                    </li>
+                    <li class="d-flex align-items-center">
+                    	<button class="p-0 print-btn printBtn" id="" title="Print">
+                    		<div class="icon-frame">
+                    			<img class="icon-img" alt="Print icon" src="/img/icon-print.png">
+                    		</div>
+                    	</button>
+                    </li>
+                    <li class="d-flex flex-column align-items-center position-relative">
+                        <button class="p-0 font-size-toggle-btn" id="fontSizeToggleBtn" >
+                        	<div class="icon-frame">
+                        		<img class="icon-img" src="/img/icon-aa.png" alt="Font Size Icon">
+                        	</div>
+                        </button>
+                        <ul class="font-size-holder" style="display: none">
+                            <li>
+                            	<button class="smallFont font" title="Small Font Size">
+                            		<div class="icon-frame">
+                            			A
+                            		</div>
+                            	</button>
+                            </li>
+                            <li>
+                            	<button class="mediumFont font" title="Normal Font Size">
+                            		<div class="icon-frame">
+                            			A
+                            		</div>
+                            	</button>
+                            </li>
+                            <li>
+                            	<button class="largeFont font" title="Large Font Size">
+                            		<div class="icon-frame">
+                            			A
+                            		</div>
+                            	</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                    </div>
+	        </div>
+	        
+	        
+	    <div class="row row-cols-auto col-12">
+	        <div class="header-nav custom-scroll-bar">
+	        
+	            <ul class="nav-primary list-unstyled m-0 p-0">
+	            	<li class="nav-primary-item">
+                                <a class="item-title" href="/eng/main" title="Main Page">
+                                <span>Main Page</span>
+                                </a>
+                            </li>
+                	<li class="nav-primary-item">
+                                <a class="item-title" href="/eng/legislation" title="Legislation">
+                                <span>Legislation</span>
+                                </a>
+                            </li>
+					<li class="nav-primary-item">
+                                <a class="item-title" href="/eng/spm" title="Supervisory Policy Manual (SPM)">
+                                <span>Supervisory Policy Manual (SPM)</span>
+                                </a>
+                            </li>
+                            
+                    <li class="nav-primary-item">
+                                <a class="item-title" href="/eng/gta" title="Guide to Authorization">
+                                <span>Guide to Authorization</span>
+                                </a>
+                            </li>
+                    <li class="nav-primary-item">
+                                <a class="item-title" href="/eng/cop" title="Resolution – Code of Practice">
+                                <span>Resolution – Code of Practice</span>
+                                </a>
+                            </li>        
+                    
+                            
+                            
+	           		
+                            
+	            </ul>
+	            
+	            <div class="tool-box mobile">
+	            	 
+		            	
+			            	<div class="d-flex tool-language mobile">
+			            		<div class="fw-bold">Language</div>
+			            		<a id="engMobileLink" href="" title="English version">
+		                        Eng
+		                        </a>
+		                        <a id="langChiMobileLink" href="" title="繁體中文版">
+		                        繁
+		                        </a>
+		                        <a id="langGbChiMobileLink" href="" title="简体中文版">
+		                        简
+		                        </a>
+			            	</div>
+		            	
+		            	
+	            	
+	            	<div class="d-flex tool-font-size mobile">
+	            		<div class="fw-bold">Font Size</div>
+	            		<a class="smallFont font">A-</a>
+	            		<a class="mediumFont font">A</a>
+	            		<a class="largeFont font">A+</a>
+	            	</div>
+	            	<div class="container-fluid">
+	            	<button class="p-0 print-btn printBtn" id="" title="Print">
+                    		<div class="icon-frame">
+                    			<img class="icon-img" src="/img/icon-print.png" alt="Print Icon">
+                    		</div>
+                    </button>
+	            	
+	            	</div>
+	            </div>
+	            
+	        </div>
+	    </div>
+	    </div>
+
+		 <div class="header-search">
+		 
+			<form class="fltrRsltReqBySearchWordForm" action="/eng/fltr-rslt" method="POST">
+               
+            <div class="container-xxl p-2">
+            
+               <div class="row gap-12">
+                    
+                <div class="d-flex gap-12 align-items-center">
+                 
+                 
+                 
+
+
+
+
+
+
+<div class="free-text-input" data-type="header">
+				
+	<div class="input-container h-44">
+		<input class="user-free-text-input" type="hidden"/>
+		
+		<div class="w-100 h-42">
+			<input id='' name="searchWord" class="search-field-input main" placeholder="What are you looking for?" title="Search"type="text" autocomplete="off"/>
+		</div>
+		
+		<div class="clear-field">
+			<button id=''class="clear-field-btn icon-btn" type="button" title='Clear'>
+				<div class="icon-frame px-8 m-auto">
+					<span class="icon icon-x-circle svg-grey"></span>
+				</div>
+			</button>
+			<span class="line"></span>
+		</div>
+		
+		
+		
+		
+		
+		<!-- is null -->
+		<button class="tooltips-btn icon-btn" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="&lt;p&gt;To narrow your results in specific ways, you can use wildcard operators &#039;*&#039; or &#039;?&#039; and boolean operators &#039;AND&#039;, &#039;OR&#039; or &#039;NOT&#039; in your search.&lt;/p&gt;
+&lt;p&gt;Please input:&lt;/p&gt;
+&lt;p&gt;- at least two characters before &#034;*&#034; or &#034;?&#034;&lt;/p&gt;
+&lt;p&gt;- at least a word before/after &#034;AND&#034;, &#034;OR&#034;&lt;/p&gt;
+&lt;p&gt;- at least a word after &#034;NOT&#034;&lt;/p&gt;" 
+		data-bs-html="true"
+		title='Tool Tips'>
+			<div class="help-icon icon-frame px-8 m-auto">
+				<span class="icon icon-help svg-primary"></span>
+			</div>
+		</button>
+		
+		
+		
+		
+		<a class="adv-search-btn icon-btn" type="button" title="Advanced Search" href="/eng/adv-srch">
+			<div class="icon-frame px-8 m-auto">
+				<span class="icon icon-gear svg-primary"></span>
+			</div>
+		</a>	
+		
+		<button name="searchBtn" class="search-btn icon-btn" type="submit" title='Search'>
+			<div class="icon-frame px-8 m-auto">
+				<span class="icon icon-zoom svg-primary"></span>
+			</div>
+		</button>
+		
+		</div>
+
+	<div class="freeTextErrorMsgMain freeTextError error-msg" style="display: none; margin-top: 4px;">
+		<div class="d-flex">
+			<div class="help-icon icon-frame px-8">
+				<span class="icon icon-error svg-error"></span>
+			</div>
+			<div  class="freeTextErrorMsg text-error">The input contains invalid search syntax, please see tooltip for more information on search operators. </div>
+		</div>
+	</div>
+	
+	<div class="autocomplete" style="display: none"></div> 
+	
+</div>
+                
+                <button class="icon-frame mt=0 header-search-close-btn size-28" title="Close" type="button"><span class="icon icon-close"></span></button>
+                    
+                </div>
+              
+                    
+                <div class="w-auto ms-auto d-flex gap-12 mt-0 desktop">
+                
+					<a class="button button-tertiary" type="button" title="Advanced Search" href="/eng/adv-srch">
+              			<span class="text-nowrap">Advanced Search</span>
+              		</a>
+              		
+  					<button class="button button-primary" type="submit" id="headerSubmitButton" title="submit-button">
+						<span>Search</span>
+  					</button>
+  					
+          		</div>
+
+      		</div>
+  		</div>
+                
+        </form>
+            	
+        </div>
+            
+        <div class="nav-overlay"></div>
+
+</div>
+
+<div class="modal" id="checkDocTypeModal"  aria-hidden="false">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-body">
+				<p class="heading2">Please select at least one document type</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button"  class="button button-primary" data-bs-dismiss="modal" aria-label="Close" title="close-button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="checkTopicModal"  aria-hidden="false">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-body">
+				<p class="heading2">Please select at least one topic/subtopic</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="button button-primary" data-bs-dismiss="modal" aria-label="Close" title="close-button">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="regex">
+	<input type="hidden" id="regexCode" value=header.value.regexCode/>
+</div>
+
+
+<input id="dateFormat" type="hidden" value=""/>
+<script src="/scripts/js/public/header.js?v=1.1"></script>
+	</header>
+	
+	<div class="print print-header">
+		<img class="print-logo" src="/img/hkma-logo.png" alt="HKMA Print Icon"/>
+	</div>
+	
+	<div id="header-sticky-space" class="dont-print"></div>
+	
+	<!-- content -->
+	<main>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var docId =$('#docId').val();
+	$('#langChiLink').attr('href','/chi/doc-ldg/docId/'+'20260527-2-TC'); 
+ 	$('#langGbChiLink').attr('href','/gb_chi/doc-ldg/docId/'+'20260527-2-TC'); 
+	$('#engLink').attr('href','/eng/doc-ldg/docId/'+'20260527-2-EN');
+ 	$('#engLink1').attr('href','/eng/doc-ldg/docId/'+'20260527-2-EN'); 
+ 	$("#engMobileLink").attr('href','/eng/doc-ldg/docId/'+'20260527-2-EN');
+	$("#langChiMobileLink").attr('href','/chi/doc-ldg/docId/'+'20260527-2-TC');
+	$("#langGbChiMobileLink").attr('href','/gb_chi/doc-ldg/docId/'+'20260527-2-TC'); 
+})
+
+function displayAllKeyword(button){
+	$(".tag.keyword").show();
+	$(button).hide();
+	$("#hideKeywordButton").show();
+}
+
+function hideKeywords(button){
+	$(".tag.keyword.isHide").hide();
+	$(button).hide();
+	$("#displayKeywordButton").show();
+}
+
+function displayAllInputtedKeyword(button){
+	$(".index.inputted-keyword").show();
+	$(button).hide();
+	$("#hideInputtedKeywordButton").show();
+}
+
+function hideInputtedKeyword(button){
+	$(".index.inputted-keyword.isHide").hide();
+	$(button).hide();
+	$("#displayInputedKeywordButton").show();
+}
+
+function displayAllSelectedKeyword(button){
+	$(".index.selected-keyword").show();
+	$(button).hide();
+	$("#hideSelectedKeywordButton").show();
+}
+
+function hideSelectedKeyword(button){
+	$(".index.selected-keyword.isHide").hide();
+	$(button).hide();
+	$("#displaySelectedKeywordButton").show();
+}
+
+function displayInterestedIn(button){
+	$(".dont-page-break.interIn").show();
+	$(button).hide();
+	$("#hideInterestedInButton").show();
+}
+
+function hideInterestedIn(button){
+	$(".dont-page-break.interIn").hide();
+	$(button).hide();
+	$("#displayInterestedInButton").show();
+}
+</script>
+
+<div class="content-container">
+<div class="content-wrapper landing">
+               
+	<section class="container doc-info-container">
+                  
+    	<div class="d-flex top">
+	        <div class="tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	        <div class="ms-auto mt-0 d-flex gap-12">              
+	            <!-- AI Site Change doc language -->
+	            
+	                           
+	            <div class="version tag bg-primary-border">Current</div>
+            </div>
+        </div>
+        <input id="docId" value="20260527-2-EN" type="hidden"/>
+      
+        
+                       
+        
+		    
+		
+			<h1 class="long-title heading1 heading3-mobile text-primary fw-bold m-0">Virtual asset-related activities in relation to relevant stablecoins issued by licensed stablecoin issuers</h1>
+		
+		
+                       
+                                    
+                       
+        <div class="row">
+       		<div class="issue-date">Issue Date: </div>
+        	<div>27 May 2026</div>
+        </div>
+            
+        
+
+        
+	</section>   
+                   
+	
+	
+	<section class="container p-12">
+	    
+		<div class="container-fluid d-flex flex-column p-0">
+		
+		<!-- <h2 class="heading2 heading3-mobile">View Document</h2> -->
+
+		
+		
+		
+		
+			<div class="document-file">
+			 <div class="icon-frame m-0 size-36"><span class="icon icon-pdf"></span></div>
+			<a class="document-file-info" href="/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf" target="_blank" type="application/pdf">
+			20260527-2-EN.pdf (202.7 KB)            
+			 </a>
+			</div>
+		
+		
+		
+		
+		
+		<!--  
+		    <a href="/scripts/plugin/pdfjs-2.16.105-dist/web/viewer.html?file=IR-1.pdf" target="_blank">
+		-->
+		</div>
+	    
+	</section>
+	 
+	
+                    
+	<section class="container p-12">   
+
+		<div class="details d-flex flex-column gap-12">
+			
+			<div class="d-flex gap-8 flex-wrap">
+				<span class="fw-bold">Topic:</span>
+				
+				<a href="/eng/fltr-rslt/subtopic/T0011-TS0007" class="meta-data tag topic">
+					
+					
+					
+						<div>Fintech - Virtual assets</div>
+					
+					
+					
+				</a>
+				
+				<a href="/eng/fltr-rslt/subtopic/T0031-TS0003" class="meta-data tag topic">
+					
+					
+					
+						<div>Wealth Management & MPF - Securities/investment products</div>
+					
+					
+					
+				</a>
+				
+			</div>
+			
+	
+			
+	
+			
+			<div class="d-flex gap-8 flex-wrap">
+	    		<span class="fw-bold">Group:</span>
+				
+					<!--  <a href="/eng/fltr-rslt/ai-type/7" class="meta-data tag bg-darker">Registered Institutions</a> -->
+					<text class="tag bg-darker">Registered Institutions</text>
+				
+			</div>
+			
+	    </div>
+	</section>
+                   
+                   
+	
+                   
+	<section class="container p-12 desktop">
+                   
+		<div class="tab-container">
+    		<ul class="tab-title-holder tab-holder m-0">
+        		<li class="">Directly related Document</li>
+				<li class="">Cross referenced Document</li>
+				<li class="disable">Version History</li>
+				<li class="disable">Superseded Document</li>
+			</ul>
+			
+			<div class="tab-content-holder tab-content">
+    			<div class="tab-page">
+    				<div class="tab-title fixed" id="type1">Directly related Document</div>
+					<ul class="document-index list-unstyled">
+					
+						
+
+						
+
+						
+						
+						
+						
+
+						
+							
+							
+
+							
+							<li class="relp-item" relp-info="Direct Doc">
+           						
+								
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="Appendix A1">Annex</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-3-EN" target="_blank">Appendix A1 - Licensing or registration conditions and terms and conditions for licensed corporations or registered institutions providing virtual asset dealing services and virtual asset advisory services</a></div>
+</div>
+							</li>
+							
+
+							
+							
+
+							
+							<li class="relp-item" relp-info="Direct Doc">
+           						
+								
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="Appendix A2">Annex</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-27-EN" target="_blank">Appendix A2 - Terms and conditions for licensed corporations or registered institutions which manage portfolios that invest in virtual assets</a></div>
+</div>
+							</li>
+							
+
+							
+							
+						
+						
+						
+					
+					</ul>
+				</div>
+                   
+				<div class="tab-page">
+					<ul class="document-index list-unstyled">
+					
+					
+
+					
+					
+					<li class="relp-item" relp-info="Cross Ref Doc">
+						
+						
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">30 Sep 2025</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20250930-1-EN" target="_blank">Supplemental joint circular on intermediaries’ virtual asset-related activities</a></div>
+</div>
+					</li>
+					
+					
+					
+					<li class="relp-item" relp-info="Cross Ref Doc">
+						
+						
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">22 Dec 2023</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20231222-1-EN" target="_blank">Joint circular on intermediaries’ virtual asset-related activities</a></div>
+</div>
+					</li>
+					
+					
+    				</ul>
+				</div>
+				
+				<div class="tab-page">
+					<ul class="document-index list-unstyled">
+    				
+					
+					
+    				</ul>
+    				
+				</div>
+				
+				<div class="tab-page">
+					<ul class="document-index list-unstyled">
+					
+                          
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+                   	
+	<section class="container p-0 mobile">
+	
+		<div class="accordion accordion-flush" id="docRelp">
+			<div class="accordion-item  ">
+				<h2 class="accordion-header">
+					
+					
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		  					Directly related Document
+						</button>
+					
+					
+					
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse">
+				<div class="accordion-body p-12">
+					<ul class="document-index list-unstyled">
+					
+						
+
+						
+
+						
+						
+						
+						
+
+						
+							
+							
+
+							
+							<li class="relp-item" relp-info="Direct Doc">
+           						
+								
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="Appendix A1">Annex</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-3-EN" target="_blank">Appendix A1 - Licensing or registration conditions and terms and conditions for licensed corporations or registered institutions providing virtual asset dealing services and virtual asset advisory services</a></div>
+</div>
+							</li>
+							
+
+							
+							
+
+							
+							<li class="relp-item" relp-info="Direct Doc">
+           						
+								
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="Appendix A2">Annex</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-27-EN" target="_blank">Appendix A2 - Terms and conditions for licensed corporations or registered institutions which manage portfolios that invest in virtual assets</a></div>
+</div>
+							</li>
+							
+
+							
+							
+						
+						
+						
+					
+					</ul>
+						
+					</div>
+				</div>
+			</div>
+	
+			<div class="accordion-item ">
+				<h2 class="accordion-header">
+					
+					
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Cross referenced Document
+						</button>
+					
+					
+					
+				</h2>
+				<div id="collapseTwo" class="accordion-collapse collapse">
+					<div class="accordion-body p-12">
+		          		<ul class="document-index list-unstyled">
+						
+						
+						
+						<li class="relp-item" relp-info="Cross Ref Doc">
+							
+							
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">30 Sep 2025</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20250930-1-EN" target="_blank">Supplemental joint circular on intermediaries’ virtual asset-related activities</a></div>
+</div>
+						</li>
+						
+						
+						
+						<li class="relp-item" relp-info="Cross Ref Doc">
+							
+							
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">22 Dec 2023</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20231222-1-EN" target="_blank">Joint circular on intermediaries’ virtual asset-related activities</a></div>
+</div>
+						</li>
+						
+						
+	    				</ul>
+					</div>
+				</div>
+			</div>
+	
+			<div class="accordion-item disable">
+				<h2 class="accordion-header">
+					
+					
+					
+						<div class="accordion-button collapsed">
+							Version History
+						</div>
+					
+					
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse">
+					<div class="accordion-body p-12">
+						<ul class="document-index list-unstyled">
+	    				
+		     	    	
+	         			
+	    				</ul>
+	    				
+					</div>
+				</div>
+			</div>
+	
+	
+			<div class="accordion-item disable">
+				<h2 class="accordion-header">
+					
+					
+					
+						<div class="accordion-button collapsed">
+							Superseded Document
+						</div>
+					
+					
+				</h2>
+				<div id="collapseFour" class="accordion-collapse collapse" >
+					<div class="accordion-body p-12">
+						<ul class="document-index list-unstyled">
+						 
+						
+						</ul>
+								
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section class="container p-12 dont-print">
+	
+		<div class="interest dont-page-break">
+		<div class="d-flex">
+		
+			<h2 class="heading2 heading3-mobile">You may also be interested in</h2>
+			<button style="display: none;" onclick="displayInterestedIn(this)" id="displayInterestedInButton"><h2 class="heading2 heading3-mobile">+</h2></button>
+			<button onclick="hideInterestedIn(this)" id="hideInterestedInButton"><h2 class="heading2 heading3-mobile">-</h2></button>
+			<!-- 
+			<button style="display: hide;" class="icon-frame" type="button"><span class="icon icon-arrow"></span></button>
+			 -->
+		
+		</div>
+		   
+		<ul class="document-index you-may list-unstyled dont-page-break interIn">
+		   
+		
+		
+			
+			
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-7-EN" target="_blank">Updated Guidance on Provision of Custodial Services for Digital Assets</br></br>Annex : Updated Guidance on Expected Standards on Provision of Custodial Services for Digital Assets by Authorized Institutions</a></div>
+</div>
+		
+		
+		
+			
+			
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-28-EN" target="_blank">Guidance on Offering of Financing for Virtual Asset Dealing, Shared Order Book, and Client Virtual Asset Withdrawals</br></br>Attachment: SFC VA Circular dated 11 February 2026</a></div>
+</div>
+		
+		
+		
+			
+			
+
+
+
+
+
+
+
+
+
+
+<div class="document-index-item-grid dont-page-break">
+	<div class="document-type tag bg-primary-darker" title="CIR - Circular">CIR</div>
+	<div class="version tag ms-auto mt-0 bg-primary-border">Current</div>    
+	<div class="issue-date">27 May 2026</div>
+	<div class="document-url"><a href="/eng/doc-ldg/docId/20260527-4-EN" target="_blank">Relevant Stablecoin-related Activities</a></div>
+</div>
+		
+		
+		           
+		           
+		</ul>
+		</div>
+	
+	</section>
+	
+	
+	
+	
+	
+</div>
+
+</div>
+	</main>
+	
+	<!-- footer -->
+    <footer class="dont-print">
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.border-bottom-light{
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+</style>
+
+<div class="back-to-top">
+                <a href="#" title="Back to Top">
+                    <span class="hidden-label"></span>
+                </a>
+            </div>
+
+
+
+
+<div class="footer-container bg-footer py-5 mt-5">
+        <div class="container-xxl p-0">
+            <div class="row">
+            	<div class="d-flex flex-column col-12 col-md-4 container-fluid">
+            		<img style="width:75%; height:auto" src="/img/logo-white.png" alt="HKMA logo"/>
+                	<ul class="list-unstyled">
+                    	<li class="py-3 border-bottom-light"><a href="https://www.hkma.gov.hk/eng/other-information/contact-us">Contact Us</a></li>
+                    	
+                    		<li class="py-3 border-bottom-light"><a href="https://secure.hkma.gov.hk/eng">Subscription</a></li>
+                    	
+                	</ul>
+            	</div>
+            	
+            	<div class="d-flex flex-column col-12 col-md-4 container-fluid">
+                <h3 class="heading2 border-bottom-light">Useful Links</h3>
+                
+                <ul class="list-unstyled">
+                   	<li><a title="Hong Kong Monetary Authority" 
+                   			href="https://www.hkma.gov.hk/eng"
+                   		>
+                   		Hong Kong Monetary Authority
+                   		</a></li>
+                   	<li><a title="Legislation" 
+                   			href="/eng/legislation"
+                   		>
+                   		Legislation</a></li>
+                   	<li><a title="Supervisory Policy Manual (SPM)" 
+                   			href="/eng/spm"
+                   		>
+                   		Supervisory Policy Manual (SPM)</a></li>
+                   	<li><a title="Code of Practice" 
+                   			href="/eng/fltr-rslt/doc-type/COP"
+                   		>
+                   		Code of Practice
+                   		</a></li>
+                   	<li><a title="Consultation" 
+                   			href="/eng/fltr-rslt/doc-type/CPR"
+                   		>
+                   		Consultation
+                   		</a></li>
+               	</ul>
+                
+                </div>
+
+            </div>
+        </div>
+        <div class="container-xxl">
+            <div class="row flex-column align-items-lg-center">
+                <ul class="d-flex flex-wrap justify-content-start justify-content-md-center list-unstyled">
+                	
+                		
+                		
+                		
+                			<li class=""><a href="/eng/accessibility" title="Accessibility">Accessibility</a></li>
+                		
+                		
+	                    <li class="px-2"><span class="line"></span></li>
+	                    
+	                    
+	                    	<li class=""><a href="https://www.hkma.gov.hk/eng/other-information/equal-opportunities/" title="Equal Opportunity ">Equal Opportunity </a></li>
+	                    
+	                    
+	                   
+	                    <li class="px-2"><span class="line"></span></li>
+	                    
+	                    
+	                    
+	                    	<li class=""><a href="/eng/privacy-policy-statement" title="Privacy Policy Statement">Privacy Policy Statement</a></li>
+	                    
+	                    
+	                    <li class="px-2"><span class="line"></span></li>
+	                    
+	                    
+	                    
+	                    	<li class=""><a href="/eng/security-information" title="Security Information">Security Information</a></li>
+	                    
+	                    
+	                    <li class="px-2"><span class="line"></span></li>
+	                    
+	                    
+	                    
+	                    	<li class=""><a href="/eng/terms-and-conditions" title="Terms and Conditions of Use">Terms and Conditions of Use</a></li>
+	                    
+                		
+                	
+                	
+                </ul>
+                <p class="w-auto">
+                   © 2025 Hong Kong Monetary Authority. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+	</footer>	
+
+	<div class="dont-print">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+        	<div class="modal pop-up-confirm" id="topicModal"  aria-hidden="true">
+            <div class="modal-dialog modal-xl mx-auto">
+              <div class="modal-content rounded-0">
+              
+                <form id="fltrRsltPopUpReqByTopicsForm" class="expand-parent" action="/eng/fltr-rslt/topics" method="POST">
+                  <div class="modal-header">
+                      <div class="button-container ms-auto custom-scroll-bar overflow-x overflow-y-hidden">
+                      
+                      	<button class="button button-text" type="button" onclick="clearAllCheckboxTopicPopUp()" title="clear-all-button">Clear All</button>
+                      	<button class="button button-tertiary" type="button" onclick="selectAllCheckboxTopic()" title="select-all-button">Select All</button>
+                         <button class="button button-tertiary" type="button" onclick="expandAll(this)" title="expand-all-button">Expand All</button>
+                         <button class="button button-tertiary" type="button" onclick="collapseAll(this)" title="collapse-all-button">Collapse All</button>
+                          
+                          
+                      </div>
+                    </div>
+                    <div class="modal-body">              
+                          <ul class="topic-holder row list-unstyled p-0 m-0 popup2">
+                          	
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0001" type="checkbox" name='topicList[]' value="T0001" metadataID = "T0001">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">AML & CFT</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0001-TS0001" name='subtopicList[]' value="T0001-TS0001" metadataID = "T0001-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">AML/CFT Controls</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0001-TS0002" name='subtopicList[]' value="T0001-TS0002" metadataID = "T0001-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Financial Sanctions</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0001-TS0003" name='subtopicList[]' value="T0001-TS0003" metadataID = "T0001-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Tax Matters Related</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0001-TS0004" name='subtopicList[]' value="T0001-TS0004" metadataID = "T0001-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0002" type="checkbox" name='topicList[]' value="T0002" metadataID = "T0002">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Authorization</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0006" name='subtopicList[]' value="T0002-TS0006" metadataID = "T0002-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Digital Banking</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0001" name='subtopicList[]' value="T0002-TS0001" metadataID = "T0002-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Guide to Authorization</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0002" name='subtopicList[]' value="T0002-TS0002" metadataID = "T0002-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Mergers/Takeovers/Restructuring</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0003" name='subtopicList[]' value="T0002-TS0003" metadataID = "T0002-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Minimum Criteria for Authorization</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0004" name='subtopicList[]' value="T0002-TS0004" metadataID = "T0002-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Money Brokers</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0005" name='subtopicList[]' value="T0002-TS0005" metadataID = "T0002-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Three-tier Banking System</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0002-TS0007" name='subtopicList[]' value="T0002-TS0007" metadataID = "T0002-TS0007">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0003" type="checkbox" name='topicList[]' value="T0003" metadataID = "T0003">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Banking Conduct & Enforcement</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0001" name='subtopicList[]' value="T0003-TS0001" metadataID = "T0003-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Account Opening/Maintenance</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0002" name='subtopicList[]' value="T0003-TS0002" metadataID = "T0003-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Bank Culture</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0003" name='subtopicList[]' value="T0003-TS0003" metadataID = "T0003-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Code of Banking Practice</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0004" name='subtopicList[]' value="T0003-TS0004" metadataID = "T0003-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Complaints</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0005" name='subtopicList[]' value="T0003-TS0005" metadataID = "T0003-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Consumer Protection</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0006" name='subtopicList[]' value="T0003-TS0006" metadataID = "T0003-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Credit Data Sharing</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0007" name='subtopicList[]' value="T0003-TS0007" metadataID = "T0003-TS0007">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Enforcement/Discipline</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0008" name='subtopicList[]' value="T0003-TS0008" metadataID = "T0003-TS0008">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Financial Inclusion</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0003-TS0009" name='subtopicList[]' value="T0003-TS0009" metadataID = "T0003-TS0009">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0004" type="checkbox" name='topicList[]' value="T0004" metadataID = "T0004">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Business Continuity Planning</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0004-TS0001" name='subtopicList[]' value="T0004-TS0001" metadataID = "T0004-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Business Continuity Planning</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0005" type="checkbox" name='topicList[]' value="T0005" metadataID = "T0005">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Capacity Building</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0005-TS0001" name='subtopicList[]' value="T0005-TS0001" metadataID = "T0005-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Enhanced competency framework</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0005-TS0002" name='subtopicList[]' value="T0005-TS0002" metadataID = "T0005-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0006" type="checkbox" name='topicList[]' value="T0006" metadataID = "T0006">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Capital Adequacy</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0001" name='subtopicList[]' value="T0006-TS0001" metadataID = "T0006-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Capital Base</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0002" name='subtopicList[]' value="T0006-TS0002" metadataID = "T0006-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Capital Buffers</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0003" name='subtopicList[]' value="T0006-TS0003" metadataID = "T0006-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">CCR</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0004" name='subtopicList[]' value="T0006-TS0004" metadataID = "T0006-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Credit Risk (non-securitization exposures)</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0008" name='subtopicList[]' value="T0006-TS0008" metadataID = "T0006-TS0008">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Credit Risk (securitization exposures)</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0005" name='subtopicList[]' value="T0006-TS0005" metadataID = "T0006-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Market Risk</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0006" name='subtopicList[]' value="T0006-TS0006" metadataID = "T0006-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Operational Risk</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0007" name='subtopicList[]' value="T0006-TS0007" metadataID = "T0006-TS0007">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Pillar 2</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0009" name='subtopicList[]' value="T0006-TS0009" metadataID = "T0006-TS0009">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">SIBs</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0010" name='subtopicList[]' value="T0006-TS0010" metadataID = "T0006-TS0010">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Sovereign Concentration Risk</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0006-TS0011" name='subtopicList[]' value="T0006-TS0011" metadataID = "T0006-TS0011">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0007" type="checkbox" name='topicList[]' value="T0007" metadataID = "T0007">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Consolidated Supervision</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0007-TS0001" name='subtopicList[]' value="T0007-TS0001" metadataID = "T0007-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Consolidated Supervision</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0008" type="checkbox" name='topicList[]' value="T0008" metadataID = "T0008">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Corporate Governance</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0008-TS0001" name='subtopicList[]' value="T0008-TS0001" metadataID = "T0008-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Board Directorship</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0008-TS0002" name='subtopicList[]' value="T0008-TS0002" metadataID = "T0008-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Code of conduct</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0008-TS0003" name='subtopicList[]' value="T0008-TS0003" metadataID = "T0008-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Remuneration</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0008-TS0004" name='subtopicList[]' value="T0008-TS0004" metadataID = "T0008-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0009" type="checkbox" name='topicList[]' value="T0009" metadataID = "T0009">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Credit Risk Management</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0002" name='subtopicList[]' value="T0009-TS0002" metadataID = "T0009-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">CCR</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0001" name='subtopicList[]' value="T0009-TS0001" metadataID = "T0009-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Corporate credit risk management</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0003" name='subtopicList[]' value="T0009-TS0003" metadataID = "T0009-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Credit risk transfer/Mitigation</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0004" name='subtopicList[]' value="T0009-TS0004" metadataID = "T0009-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Loan classification/Provisioning</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0005" name='subtopicList[]' value="T0009-TS0005" metadataID = "T0009-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Property mortgage lending</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0006" name='subtopicList[]' value="T0009-TS0006" metadataID = "T0009-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Retail credit risk management</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0009-TS0007" name='subtopicList[]' value="T0009-TS0007" metadataID = "T0009-TS0007">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0010" type="checkbox" name='topicList[]' value="T0010" metadataID = "T0010">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Disclosure</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0010-TS0001" name='subtopicList[]' value="T0010-TS0001" metadataID = "T0010-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Pillar 3 requirements</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0010-TS0002" name='subtopicList[]' value="T0010-TS0002" metadataID = "T0010-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0011" type="checkbox" name='topicList[]' value="T0011" metadataID = "T0011">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Fintech</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0003" name='subtopicList[]' value="T0011-TS0003" metadataID = "T0011-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Commercial data interchange</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0004" name='subtopicList[]' value="T0011-TS0004" metadataID = "T0011-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Fintech supervisory sandbox</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0005" name='subtopicList[]' value="T0011-TS0005" metadataID = "T0011-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Open API</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0006" name='subtopicList[]' value="T0011-TS0006" metadataID = "T0011-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Regtech</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0002" name='subtopicList[]' value="T0011-TS0002" metadataID = "T0011-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Smart Banking</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0001" name='subtopicList[]' value="T0011-TS0001" metadataID = "T0011-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Suptech</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0007" name='subtopicList[]' value="T0011-TS0007" metadataID = "T0011-TS0007">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Virtual assets</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0011-TS0008" name='subtopicList[]' value="T0011-TS0008" metadataID = "T0011-TS0008">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0012" type="checkbox" name='topicList[]' value="T0012" metadataID = "T0012">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Green & Sustainable Banking</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0012-TS0001" name='subtopicList[]' value="T0012-TS0001" metadataID = "T0012-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Climate risk management</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0012-TS0002" name='subtopicList[]' value="T0012-TS0002" metadataID = "T0012-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Sustainability reporting standards</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0012-TS0003" name='subtopicList[]' value="T0012-TS0003" metadataID = "T0012-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0013" type="checkbox" name='topicList[]' value="T0013" metadataID = "T0013">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Interest Rate Risk Management</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0013-TS0001" name='subtopicList[]' value="T0013-TS0001" metadataID = "T0013-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Interest Rate Risk Management</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0014" type="checkbox" name='topicList[]' value="T0014" metadataID = "T0014">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Internal Controls</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0014-TS0001" name='subtopicList[]' value="T0014-TS0001" metadataID = "T0014-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Compliance function</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0014-TS0002" name='subtopicList[]' value="T0014-TS0002" metadataID = "T0014-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Insourcing/Outsourcing</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0014-TS0003" name='subtopicList[]' value="T0014-TS0003" metadataID = "T0014-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Internal audit function</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0014-TS0004" name='subtopicList[]' value="T0014-TS0004" metadataID = "T0014-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Risk management function</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0014-TS0005" name='subtopicList[]' value="T0014-TS0005" metadataID = "T0014-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0015" type="checkbox" name='topicList[]' value="T0015" metadataID = "T0015">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Large Exposures & Risk Concentrations</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0015-TS0001" name='subtopicList[]' value="T0015-TS0001" metadataID = "T0015-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Connected parties</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0015-TS0002" name='subtopicList[]' value="T0015-TS0002" metadataID = "T0015-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">HKMCI-related exposures</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0015-TS0003" name='subtopicList[]' value="T0015-TS0003" metadataID = "T0015-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Limits on credit exposures</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0015-TS0004" name='subtopicList[]' value="T0015-TS0004" metadataID = "T0015-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0016" type="checkbox" name='topicList[]' value="T0016" metadataID = "T0016">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Leverage Ratio</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0016-TS0001" name='subtopicList[]' value="T0016-TS0001" metadataID = "T0016-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Leverage Ratio</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0017" type="checkbox" name='topicList[]' value="T0017" metadataID = "T0017">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Liquidity Risk Management</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0017-TS0001" name='subtopicList[]' value="T0017-TS0001" metadataID = "T0017-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Liquidity facilities</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0017-TS0002" name='subtopicList[]' value="T0017-TS0002" metadataID = "T0017-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Sound LRM framework</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0017-TS0003" name='subtopicList[]' value="T0017-TS0003" metadataID = "T0017-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Statutory liquidity requirements</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0017-TS0004" name='subtopicList[]' value="T0017-TS0004" metadataID = "T0017-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0018" type="checkbox" name='topicList[]' value="T0018" metadataID = "T0018">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Mainland Activities</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0018-TS0001" name='subtopicList[]' value="T0018-TS0001" metadataID = "T0018-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Mainland Activities</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0019" type="checkbox" name='topicList[]' value="T0019" metadataID = "T0019">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Market Risk Management</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0019-TS0001" name='subtopicList[]' value="T0019-TS0001" metadataID = "T0019-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Algorithmic trading</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0019-TS0002" name='subtopicList[]' value="T0019-TS0002" metadataID = "T0019-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Foreign exchange</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0019-TS0003" name='subtopicList[]' value="T0019-TS0003" metadataID = "T0019-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0020" type="checkbox" name='topicList[]' value="T0020" metadataID = "T0020">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Miscellaneous</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0001" name='subtopicList[]' value="T0020-TS0001" metadataID = "T0020-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">BCBS</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0002" name='subtopicList[]' value="T0020-TS0002" metadataID = "T0020-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Covid-19 challenges</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0003" name='subtopicList[]' value="T0020-TS0003" metadataID = "T0020-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Deposit protection</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0005" name='subtopicList[]' value="T0020-TS0005" metadataID = "T0020-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">FSB</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0004" name='subtopicList[]' value="T0020-TS0004" metadataID = "T0020-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">SFC/IA/MPFA</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0020-TS0006" name='subtopicList[]' value="T0020-TS0006" metadataID = "T0020-TS0006">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0022" type="checkbox" name='topicList[]' value="T0022" metadataID = "T0022">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Operational Risk Management</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0022-TS0001" name='subtopicList[]' value="T0022-TS0001" metadataID = "T0022-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Commercial Crime Bureau</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0022-TS0002" name='subtopicList[]' value="T0022-TS0002" metadataID = "T0022-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Fraud risk management</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0022-TS0003" name='subtopicList[]' value="T0022-TS0003" metadataID = "T0022-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Operational and IT incident watch</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0022-TS0004" name='subtopicList[]' value="T0022-TS0004" metadataID = "T0022-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0021" type="checkbox" name='topicList[]' value="T0021" metadataID = "T0021">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">OTC Derivatives</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0021-TS0001" name='subtopicList[]' value="T0021-TS0001" metadataID = "T0021-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Clearing</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0021-TS0002" name='subtopicList[]' value="T0021-TS0002" metadataID = "T0021-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Margining/Risk-mitigation</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0021-TS0003" name='subtopicList[]' value="T0021-TS0003" metadataID = "T0021-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Reporting</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0021-TS0004" name='subtopicList[]' value="T0021-TS0004" metadataID = "T0021-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Trading</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0021-TS0005" name='subtopicList[]' value="T0021-TS0005" metadataID = "T0021-TS0005">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0023" type="checkbox" name='topicList[]' value="T0023" metadataID = "T0023">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Recovery planning</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0023-TS0001" name='subtopicList[]' value="T0023-TS0001" metadataID = "T0023-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Recovery planning</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0024" type="checkbox" name='topicList[]' value="T0024" metadataID = "T0024">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Renminbi</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0024-TS0001" name='subtopicList[]' value="T0024-TS0001" metadataID = "T0024-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Renminbi</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0025" type="checkbox" name='topicList[]' value="T0025" metadataID = "T0025">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Resolution</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0025-TS0001" name='subtopicList[]' value="T0025-TS0001" metadataID = "T0025-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Resolution execution</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0025-TS0002" name='subtopicList[]' value="T0025-TS0002" metadataID = "T0025-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Resolution framework</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0025-TS0003" name='subtopicList[]' value="T0025-TS0003" metadataID = "T0025-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Resolution planning</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0025-TS0004" name='subtopicList[]' value="T0025-TS0004" metadataID = "T0025-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Resolution standards</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0026" type="checkbox" name='topicList[]' value="T0026" metadataID = "T0026">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Strategic & Reputation Risk Management</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0026-TS0001" name='subtopicList[]' value="T0026-TS0001" metadataID = "T0026-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Strategic & Reputation Risk Management</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0027" type="checkbox" name='topicList[]' value="T0027" metadataID = "T0027">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Supervisory Approach</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0027-TS0001" name='subtopicList[]' value="T0027-TS0001" metadataID = "T0027-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Supervisory Approach</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0028" type="checkbox" name='topicList[]' value="T0028" metadataID = "T0028">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Technology Risk Management</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0028-TS0001" name='subtopicList[]' value="T0028-TS0001" metadataID = "T0028-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Cybersecurity</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0028-TS0002" name='subtopicList[]' value="T0028-TS0002" metadataID = "T0028-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">E-banking</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0028-TS0003" name='subtopicList[]' value="T0028-TS0003" metadataID = "T0028-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Fraud risk management</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0028-TS0004" name='subtopicList[]' value="T0028-TS0004" metadataID = "T0028-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0029" type="checkbox" name='topicList[]' value="T0029" metadataID = "T0029">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Treasury market</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0029-TS0001" name='subtopicList[]' value="T0029-TS0001" metadataID = "T0029-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Reform of interest rate benchmarks</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0029-TS0002" name='subtopicList[]' value="T0029-TS0002" metadataID = "T0029-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0030" type="checkbox" name='topicList[]' value="T0030" metadataID = "T0030">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Trust Business</span>
+                                       </label>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       	<label class="checkbox-button" style="display:none">
+                                               <input type="checkbox" class="subtopic-checkbox T0030-TS0001" name='subtopicList[]' value="T0030-TS0001" metadataID = "T0030-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Trust Business</span>
+                                           </label>
+                                       
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                               <li class="topic-item expand-item col-12 col-lg-4 nav-primary-sublist-item">
+                                   <div class="position-relative">
+                                       <label class="checkbox-button">
+                                           <input class="topic-checkbox T0031" type="checkbox" name='topicList[]' value="T0031" metadataID = "T0031">
+                                           <span class="checkmark-tick"></span>
+                                           <span class="value">Wealth Management & MPF</span>
+                                       </label>
+                                       
+                                       	<button class="icon-frame expand-btn" type="button" title="expand-button"><span class="icon icon-arrow"></span></button>
+                                       
+                                       
+                                   </div>
+                                   <ul class="expand-group list-unstyled ps-3 flex-column">
+                                   
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0031-TS0001" name='subtopicList[]' value="T0031-TS0001" metadataID = "T0031-TS0001">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Insurance products</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0031-TS0002" name='subtopicList[]' value="T0031-TS0002" metadataID = "T0031-TS0002">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">MPF products</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0031-TS0003" name='subtopicList[]' value="T0031-TS0003" metadataID = "T0031-TS0003">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Securities/investment products</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                       <li class="expand-group-item subtopic">
+                                       
+                                       
+                                       
+                                       	<label class="checkbox-button">
+                                               <input type="checkbox" class="subtopic-checkbox T0031-TS0004" name='subtopicList[]' value="T0031-TS0004" metadataID = "T0031-TS0004">
+                                               <span class="checkmark-tick"></span>
+                                               <span class="value">Others</span>
+                                           </label>
+                                       
+                                       
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                               
+                          </ul>
+                    </div>
+                    <div class="modal-footer">
+                    	<button type="button"  class="button button-teritary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                    	
+    						
+    							<button class="button button-primary" id="confirmBtn" onclick="searchPopUpTopic()" type="button" data-bs-dismiss="modal" aria-label="Close">Search</button>
+    							<button class="button button-primary" id="searchBtn" onclick="searchPopUpTopic()" type="button" data-bs-dismiss="modal" aria-label="Close" style="display:none;">Search</button>
+    						    
+    						
+						
+
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        	
+        	<div class="modal pop-up-confirm" id="keywordModal"  aria-hidden="true">
+            <div class="modal-dialog modal-xl mx-auto">
+              <div class="modal-content rounded-0">
+                <form id="fltrRsltReqByKeywordsForm" class="expand-parent" action="/eng/doc-ldg/current/20260527-2-EN;jsessionid=hHLpr7OsuaRbYnCpQE9k_IXl32NO-ZNZfYgPPEmz.brdrprdwb01-config-server1" method="POST">
+                  <div class="modal-header">
+                      <div class="button-container ms-auto custom-scroll-bar overflow-x overflow-y-hidden">
+                      <label for="keywordInput2" style="display: none;">Filter</label>
+                      <input id="keywordInput2" onkeyup="filterKeywordPopUp()" type="text" placeholder="Enter a keyword"/>
+                      
+                      	<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+			  				<input type="radio" class="btn-check" name="keyword-group" id="keyword-group-alpha" value="alpha" autocomplete="off" checked>
+			  				<label class="btn btn-outline-primary" for="keyword-group-alpha">Alphabetic</label>
+							<input type="radio" class="btn-check" name="keyword-group" id="keyword-group-topic" value="topic" autocomplete="off">
+			  				<label class="btn btn-outline-primary" for="keyword-group-topic">Topic</label>
+						</div>
+                      
+                      	<button class="button button-text" type="button" onclick="clearAllCheckboxKeywordPopUp()" title="clear-all-button">Clear All</button>
+                       	<button class="button button-tertiary" type="button" onclick="expandAll(this)" title="expand-all-button">Expand All</button>
+                        <button class="button button-tertiary" type="button" onclick="collapseAll(this)" title="collapse-all-button">Collapse All</button>
+                        
+                      </div>
+                    </div>
+                    <div class="modal-body">
+                                              
+                          
+                          	
+                          	
+                          	
+                          	<ul id="keywordDtoAlphMap" class="keyword-holder row list-unstyled p-0 m-0 popup2 align-content-lg-start keywordGroup">
+                          	
+                          	</ul>
+                          	
+                          	
+                          	
+                          	
+                          	
+                          
+                          
+                          <ul id="keywordDtoTopicGroupMap" class="keyword-holder row list-unstyled p-0 m-0 popup2 align-content-lg-start keywordGroup" style="display: none;">
+                          	
+                          </ul>
+                          
+                    </div>
+                    <div class="modal-footer">
+                    	<button type="button"  class="button button-tertiary" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                    	
+                    		
+                    			<button class="button button-primary" id="confirmBtn" onclick="searchPopUpKeyword()" data-bs-dismiss="modal" aria-label="Close" type="button">Search</button>
+                    			<button class="button button-primary" id="searchBtn" onclick="searchPopUpKeyword()" data-bs-dismiss="modal" aria-label="Close" type="button" style="display:none;">Search</button>
+                    		
+                    		
+                    	
+                    	
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        	
+        	
+     <script>
+
+		$("input[name=keyword-group]").on("change", function(){
+			$(".keywordGroup").hide();
+			if($(this).val() == "topic") {
+				$("#keywordDtoTopicGroupMap").show();
+			}
+			else {
+				$("#keywordDtoAlphMap").show();
+			}
+
+		});
+     
+		function popUpGrouping(){
+			$(".keywordGroup").toggleClass('hide');
+
+			}
+
+     </script>   	
+	</div>
+
+<script src="/scripts/js/form.js?v=3"></script>
+<script src="/scripts/js/ui.js?v=1"></script>
+
+
+</body>
+
+</html>

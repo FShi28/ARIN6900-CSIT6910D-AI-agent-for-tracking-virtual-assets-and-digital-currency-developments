@@ -25,7 +25,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-from app_data import load_app_data, assessment
+from app_data import load_app_data, assessment, research_library, research_chunks
 
 
 def money(value: float) -> str:
@@ -48,17 +48,23 @@ with st.sidebar:
     st.markdown("## ◈ Signal Desk")
     st.caption("Virtual asset regulatory intelligence")
     st.divider()
-    page = st.radio("Workspace", ["Overview", "Regulatory Monitor", "Market Signals", "Ask the Analyst"], label_visibility="collapsed")
+    page = st.radio("Workspace", ["Overview", "Regulatory Monitor", "Market Signals", "Ask the Analyst", "Research Library"], label_visibility="collapsed")
     st.divider()
     st.caption("REAL SOURCE DATA")
-    st.caption("Official regulatory publications and public market APIs. Analysis and review have not been performed.")
+    st.caption("Official publications, market APIs, legal commentary and research reports.")
 
 st.markdown('<div class="hero"><h1>Virtual Asset Intelligence</h1><p>Cross-market regulatory signals, market indicators, and source-grounded analysis.</p></div>', unsafe_allow_html=True)
 
 if page == "Overview":
     st.markdown("### Executive snapshot")
     cols = st.columns(4)
-    metrics = [("Tracked publications", len(documents), f"Across {documents.jurisdiction.nunique() if not documents.empty else 0} collected jurisdictions"), ("Regulatory records", len(developments), "Not yet reviewed"), ("Evidence chunks", len(chunks), "Citation-preserving"), ("Market indicators", len(markets), "Public API observations")]
+    library = research_library(ROOT)
+    metrics = [
+        ("Regulatory publications", len(documents), f"Across {documents.jurisdiction.nunique() if not documents.empty else 0} collected jurisdictions"),
+        ("Research library entries", len(library), f"Across {len({p['topic'] for p in library})} topics"),
+        ("Searchable passages", len(chunks) + sum(len(p['chunks']) for p in library), "Regulatory and research evidence"),
+        ("Market indicators", len(markets), "Public API observations"),
+    ]
     for col, (label, value, note) in zip(cols, metrics):
         with col:
             st.markdown(f'<div class="metric"><div class="metric-label">{label}</div><div class="metric-value">{value}</div><div style="color:#7188a5;font-size:.8rem">{note}</div></div>', unsafe_allow_html=True)
@@ -109,11 +115,36 @@ elif page == "Market Signals":
         st.info("No market values are available for the chart.")
     st.dataframe(markets, use_container_width=True, hide_index=True)
 
+elif page == "Research Library":
+    st.markdown("### Research library")
+    publications = research_library(ROOT)
+    if not publications:
+        st.info("Waiting for the first research collection.")
+    topics = st.multiselect("Asset or topic", sorted({pub['topic'] for pub in publications}))
+    publishers = st.multiselect("Publisher", sorted({pub['publisher'] for pub in publications}))
+    for pub in publications:
+        if (topics and pub['topic'] not in topics) or (publishers and pub['publisher'] not in publishers):
+            continue
+        st.subheader(pub['title'])
+        st.caption(f"{pub['publisher']} · {pub['kind']} · {pub['topic']} · Published {pub['published']}")
+        if pub.get('format') == 'source_note':
+            st.write(pub['note'])
+        st.link_button("Read publication", pub['url'])
+        if pub.get('related_announcement'):
+            st.link_button("Related HKMA announcement", pub['related_announcement'])
+
 else:
     st.markdown("### Ask the analyst")
-    st.caption("Local keyword matching over real regulatory evidence. No model-generated analysis or assessment is performed.")
+    st.caption("Search publication text by keyword. Results include the source and evidence location.")
+    publications = research_library(ROOT)
+    selected_source = st.selectbox("Evidence source", ["All sources", "Regulatory publications"] +
+                                   sorted({pub['publisher'] for pub in publications}))
     question = st.text_input("Question", placeholder="e.g. What are the stablecoin reserve signals across HK and the UK?")
     if question:
+        if selected_source == "All sources":
+            chunks = pd.concat([chunks, research_chunks(publications)], ignore_index=True)
+        elif selected_source != "Regulatory publications":
+            chunks = research_chunks([pub for pub in publications if pub['publisher'] == selected_source])
         terms = set(question.lower().replace("?", "").split())
         scores = chunks.text.str.lower().map(lambda text: sum(term in text for term in terms))
         matches = chunks.assign(score=scores).query("score > 0").sort_values("score", ascending=False).head(3)
@@ -123,7 +154,7 @@ else:
             st.markdown("#### Evidence-grounded results")
             st.write("The following source excerpts are the closest keyword matches in the collected evidence:")
             for row in matches.itertuples():
-                st.markdown(f'<div class="source"><span class="badge">match {row.score}</span><br>{row.text}<br><small>{row.citation.label} · {row.citation.url}</small></div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="source"><span class="badge">match {row.score}</span><br>{row.text}<br><small>{row.citation.label} · <a href="{row.citation.url}">Open source</a></small></div>', unsafe_allow_html=True)
 
 st.divider()
 st.caption("Signal Desk · File-first MVP · Source-grounded outputs · Real source data")

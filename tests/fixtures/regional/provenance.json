@@ -1,0 +1,20 @@
+[
+  {
+    "file": "mas.pdf",
+    "source_url": "https://www.sgpc.gov.sg/api/file/getfile/MAS%20Media%20Release_MAS%20Announces%20Plans%20to%20Support%20Commercialisation%20of%20Asset%20Tokenisation.pdf?path=%2Fsgpcmedia%2Fmedia_releases%2Fmas%2Fpress_release%2FP-20241104-2%2Fattachment%2FMAS+Media+Release_MAS+Announces+Plans+to+Support+Commercialisation+of+Asset+Tokenisation.pdf",
+    "sha256": "dada188860003dc03c58502bcda446fcef06764cfbaf49323ecb185e232a6f06",
+    "purpose": "Saved official response for offline parser tests; never imported as a live observation"
+  },
+  {
+    "file": "esma.html",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-suggests-amendments-dlt-pilot-regime-make-it-permanent",
+    "sha256": "a4944d34de9a2f6901cc3a473b739eeb9e64f16144463d653d3e9f94cf9b97fd",
+    "purpose": "Saved official response for offline parser tests; never imported as a live observation"
+  },
+  {
+    "file": "fca.html",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-seeks-further-views-stablecoins-and-crypto-custody",
+    "sha256": "fc334316d9878179aaa52fc4b7e66c955e7cc9e68709d7b88c9d09c03f4e0108",
+    "purpose": "Saved official response for offline parser tests; never imported as a live observation"
+  }
+]

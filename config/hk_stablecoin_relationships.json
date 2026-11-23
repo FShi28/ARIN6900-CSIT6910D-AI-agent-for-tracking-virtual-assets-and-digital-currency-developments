@@ -1,0 +1,47 @@
+[
+  {
+    "id": "custody-supersession",
+    "source_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-6-EN/20260527-6-EN.pdf",
+    "source_sha256": "c8e0f6fa99e0924dda4cc179d6f9e05acc11ba7ceebb46089a7a3dbd473e7b7f",
+    "target_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-11-EN/20240220-11-EN.pdf",
+    "target_sha256": "e6cfcdd282b8f57d02330304207567318cb8428b10025ce116919bf80fda675c",
+    "relation": "supersedes",
+    "anchor": "This circular supersedes the HKMA’s circular dated 20 February 2024",
+    "applies_to": "Authorized institutions providing digital-asset custody",
+    "reviewed_on": "2026-11-21"
+  },
+  {
+    "id": "ai-same-standards",
+    "source_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-4-EN/20260527-4-EN.pdf",
+    "source_sha256": "5c4e69f371f1c1e556fdb6fb1eb4e6fd10e19b592f9ae6bc4292b0bbc96986c2",
+    "target_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf",
+    "target_sha256": "276475c7c9f2ef8aa03b1dbe14d49aefe8fcbb456bf1b14016e7ffb1b3e809e2",
+    "relation": "applies_same_standards",
+    "anchor": "should follow the same standards for registered",
+    "applies_to": "Authorized institutions; relevant-stablecoin dealing/advisory/portfolio management",
+    "reviewed_on": "2026-11-21"
+  },
+  {
+    "id": "parallel-guidance",
+    "source_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf",
+    "source_sha256": "276475c7c9f2ef8aa03b1dbe14d49aefe8fcbb456bf1b14016e7ffb1b3e809e2",
+    "target_url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=26EC26",
+    "target_sha256": "5d2dcc72f2632fddd4a90a7213a01b9550ed5703a0a86b636f87a948e3a49603",
+    "relation": "parallel_guidance",
+    "anchor": "formulated the guidance jointly with the Securities and",
+    "applies_to": "Registered institutions and SFC licensed corporations; separate entity scopes",
+    "reviewed_on": "2026-11-21"
+  },
+  {
+    "id": "2025-supplements-2023",
+    "source_url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=25EC50",
+    "source_sha256": "a4621f823a5a09b5812614b1a568642aba87f755796a13151d72b26b34c0b5e9",
+    "target_url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=23EC67",
+    "target_sha256": null,
+    "relation": "supplements",
+    "anchor": "is supplemental to the Joint circular on intermediaries’ virtual asset-related activities",
+    "applies_to": "Intermediaries under the joint virtual-asset circular; historical context",
+    "reviewed_on": "2026-11-21",
+    "limitation": "Target fetch returned official maintenance page; target text not admitted."
+  }
+]

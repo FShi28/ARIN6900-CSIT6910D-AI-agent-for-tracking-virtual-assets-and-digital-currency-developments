@@ -1,0 +1,55 @@
+[
+  {
+    "id": "hkma",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stablecoin-issuers/",
+    "trust_env": false,
+    "max_pages": 1,
+    "batch_size": 8
+  },
+  {
+    "id": "charltons",
+    "publisher": "Charltons",
+    "url": "https://www.charltonslaw.com/news/newsletters/hong-kong-law/",
+    "max_pages": 3,
+    "batch_size": 8
+  },
+  {
+    "id": "asifma",
+    "publisher": "ASIFMA",
+    "url": "https://www.asifma.org/?s=stablecoin",
+    "max_pages": 3,
+    "batch_size": 8
+  },
+  {
+    "id": "linklaters",
+    "publisher": "Linklaters",
+    "url": "https://financialregulation.linklaters.com/?SearchQuery=Hong%20Kong%20stablecoin",
+    "max_pages": 3,
+    "batch_size": 8
+  },
+  {
+    "id": "hksar",
+    "publisher": "HKSAR Government",
+    "url": "https://www.info.gov.hk/gia/rss/general_en.xml",
+    "trust_env": false,
+    "max_pages": 1,
+    "batch_size": 8
+  },
+  {
+    "id": "sfc",
+    "publisher": "SFC",
+    "url": "https://apps.sfc.hk/edistributionWeb/api/circular/search",
+    "trust_env": false,
+    "max_pages": 6,
+    "batch_size": 8
+  },
+  {
+    "id": "hkma_brdr",
+    "publisher": "HKMA",
+    "url": "https://brdr.hkma.gov.hk/restapi/doc-search",
+    "trust_env": false,
+    "max_pages": 6,
+    "batch_size": 8
+  }
+]
