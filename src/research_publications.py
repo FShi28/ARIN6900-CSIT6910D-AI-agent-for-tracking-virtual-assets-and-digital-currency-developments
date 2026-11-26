@@ -22,13 +22,13 @@ from virtual_asset_agent.pipeline import RunLog
 
 def sources(root):
     result = []
-    for name in ('research_sources.json', 'hk_stablecoin_sources.json'):
+    for name in ('research_sources.json', 'hk_stablecoin_sources.json', 'hk_cbdc_sources.json'):
         path = root / 'config' / name
         if path.exists():
             result.extend(json.loads(path.read_text(encoding='utf-8')))
     if len({source['url'] for source in result}) != len(result):
         raise ValueError('Duplicate publication URL in source catalogues')
-    for collection in ('hk_stablecoins',):
+    for collection in ('hk_stablecoins', 'hk_cbdc'):
         dynamic = root / f'data/ingestion/{collection}/discovered_sources.json'
         if not dynamic.exists():
             continue
@@ -101,6 +101,8 @@ def publication_fetcher(root, source):
         'user_agent': 'VirtualAssetResearch/0.3 (academic publication pilot)',
         'timeout_seconds': 30, 'max_retries': 1, 'min_interval_seconds': 1,
         'max_redirects': 2, 'max_bytes': max_bytes, 'trust_env': source.get('trust_env', True)})
+    if source.get('collection') == 'hk_cbdc':
+        options['http']['download_budget_seconds'] = 90
     return Fetcher(options, log)
 
 
@@ -113,6 +115,7 @@ def collect_publication(root, source, fetcher=None):
     else:
         # A pooled session may serve both small articles and reviewed large PDFs.
         fetcher.options['max_bytes'] = publication_size_limit(source)
+        fetcher.options['download_budget_seconds'] = 90 if source.get('collection') == 'hk_cbdc' else None
         download = fetcher.get(url, 'text/html' if is_html else 'application/pdf')
     return save_publication(root, source, download)
 

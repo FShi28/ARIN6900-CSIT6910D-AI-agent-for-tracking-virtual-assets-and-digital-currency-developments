@@ -1,0 +1,104 @@
+{
+  "reviewed_at": "2026-11-24T12:03:52Z",
+  "items": [
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/HKMA_BOT_Cross_Border_Payments_Proof_of_Concept_Project_Leaflet.pdf",
+      "title": "Leaflet",
+      "disposition": "collected",
+      "reason": "Reviewed PDF admitted; November 2019 date supported by archived HKMA topic-page evidence."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/List_of_Community_members_eng.pdf",
+      "title": "List of Community Members (as of Nov 2025 and sorted by alphabetical order for each category)",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Project_Ensemble_Sandbox_eng.pdf",
+      "title": "Four main themes and their corresponding use case categories tested on the Project Ensemble Sandbox",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/EnsembleTX_AnnexA_eng.pdf",
+      "title": "Annex A \u2013 Tokenised Deposit Banks in Ensemble TX",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/EnsembleTX_AnnexB_eng.pdf",
+      "title": "Annex B \u2013 Industry Pioneers in Ensemble TX",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Cross-Border_DvP_in_the_Age_of_Tokenisation_Interoperability_for_Carbon_Credit_Transactions.pdf",
+      "title": "Cross-Border DvP in the Age of Tokenisation: Interoperability for Carbon Credit Transactions",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2023/20231030e3a1.pdf",
+      "title": "e-HKD Pilot Programme Phase 1 Report",
+      "disposition": "blocked",
+      "reason": "Extraction restriction rechecked 2026-11-24; full text remains unavailable. Official results press release collected, not a substitute for full report.",
+      "summary_url": "https://www.info.gov.hk/gia/general/202310/30/P2023103000270.htm",
+      "permission_audit": "data/discovery/hk_cbdc/phase1_permission_recheck.json"
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/List_of_e-HKD_Industry_Forum_Members.pdf",
+      "title": "List of e-HKD Industry Forum Members",
+      "disposition": "needs_review",
+      "reason": "Manual PDF identity/scope review pending"
+    },
+    {
+      "url": "https://www.bis.org/publ/othp57.pdf",
+      "title": "Project Aurum: A Prototype for Two-tier Central Bank Digital Currency (CBDC)",
+      "disposition": "replaced",
+      "reason": "Old PDF URL now returns HTML; verified replacement official PDF already collected"
+    },
+    {
+      "url": "https://www.bis.org/publ/othp74.pdf",
+      "title": "Project Sela: an accessible and secure retail CBDC ecosystem",
+      "disposition": "replaced",
+      "reason": "Old PDF URL now returns HTML; verified replacement official PDF already collected"
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2025/02/20250217-1/",
+      "title": "Keynote Speech at ASIFMA Annual Conference",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/08/20230824-1/",
+      "title": "Welcoming Remarks at the Workshop on \"Recent Developments and Future Prospects of the International Monetary System\"",
+      "disposition": "collected",
+      "reason": "Reviewed and collected as HKMA CBDC historical context with empty named-project list and checked scope anchors."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2020/11/20201102-1/",
+      "title": "Keynote Speech at the Hong Kong FinTech Week 2020",
+      "disposition": "collected",
+      "reason": "Reviewed and collected as HKMA CBDC historical context with empty named-project list and checked scope anchors."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2019/11/20191106-1/",
+      "title": "Keynote Speech at Hong Kong Fintech Week 2019",
+      "disposition": "collected",
+      "reason": "Reviewed and collected as HKMA CBDC historical context with empty named-project list and checked scope anchors."
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261112-3/",
+      "title": "HKMA and SFC co-host seminar to advance tokenisation in Hong Kong and promote collaborative opportunities within Project Ensemble",
+      "disposition": "deferred_scope",
+      "reason": "Deferred under explicit CBDC-only scope. Do not expand tokenised asset products or participant lists in this task; existing central bank money settlement evidence retained."
+    },
+    {
+      "url": "https://www.imf.org/-/media/files/publications/ftn063/2022/english/ftnea2022009.pdf",
+      "title": "Towards Central Bank Digital Currencies in Asia and the Pacific: Results of a Regional Survey",
+      "disposition": "blocked",
+      "reason": "2026-11-24 local publisher download returned HTTP 403; no bypass or full-text admission. Official landing page identifies publication dated 2022-09-28.",
+      "landing_url": "https://www.imf.org/en/publications/fintech-notes/issues/2022/09/27/towards-central-bank-digital-currencies-in-asia-and-the-pacific-results-of-a-regional-survey-523914"
+    }
+  ]
+}

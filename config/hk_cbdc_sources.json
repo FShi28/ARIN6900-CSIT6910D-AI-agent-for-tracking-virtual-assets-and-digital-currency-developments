@@ -1,0 +1,2737 @@
+[
+  {
+    "title": "Expanding the cross-boundary e-CNY pilot in Hong Kong",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-05-17",
+    "published_precision": "day",
+    "projects": [
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "17 May 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/05/20240517-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "automatic_discovery": false
+  },
+  {
+    "title": "Technical Whitepaper on Retail Central Bank Digital Currency",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2021-10-04",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "04 Oct 2021",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2021/10/20211004-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "automatic_discovery": false
+  },
+  {
+    "title": "Discussion paper on e-HKD from policy and design perspective",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2022-04-27",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "27 Apr 2022",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2022/04/20220427-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "automatic_discovery": false
+  },
+  {
+    "title": "Commencement of the e-HKD Pilot Programme",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-05-18",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "18 May 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/05/20230518-4/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "automatic_discovery": false
+  },
+  {
+    "title": "Project mBridge: Successful CBDC project for real-value cross-border payment and foreign exchange transactions",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2022-10-26",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "26 Oct 2022",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2022/10/20221026-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "automatic_discovery": false
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Inthanon-LionRock: Leveraging Distributed Ledger Technology to Increase Efficiency in Cross-Border Payments",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/Report_on_Project_Inthanon-LionRock.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2020-01",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "max_bytes": 52428800,
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "Inthanon-LionRock"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "bf53a9a224d62248c25d2b966fc161596b15b7863f0aeb84cb8ae399cfff01a4",
+      "anchor": "The HKMA and the BOT jointly published a leaflet and a report in November 2019 and January 2020 respectively"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Inthanon-LionRock to mBridge: Building a multi CBDC platform for international payments",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/Inthanon-LionRock_to_mBridge_Building_a_multi_CBDC_platform_for_international_payments.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2021-09",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "max_bytes": 52428800,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "aurum",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "Inthanon-LionRock",
+      "aurum": "Aurum",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "3ad2e447b6e322d89dbb9e68a70de5a6e07f8866dad9224069938e2c8257d626",
+      "anchor": "Participating institutions jointly published a report in September 2021"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "mBridge: Building a multi CBDC platform for international payments",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/mBridge_Building_a_multi_CBDC_platform_for_international_payments.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2021-11",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "90b4e75fe960ba19957c627d66770821973348e0f0215c157b855470828a65e1",
+      "anchor": "A brochure was published in November 2021"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project mBridge: Connecting economies through CBDC",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2022/20221026e3a1.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2022-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "France"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_evidence": "October 2022"
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project mBridge Update: Experimenting with a multi-CBDC platform for cross-border payments",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/mBridge_publication.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2023-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "title_evidence": "Experimenting with a multi-CBDC platform for cross-border payments",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_evidence": "October 2023"
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project Ensemble Business Use Case Report",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Project-Ensemble-Business-Use-Case-Report.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2026-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand",
+      "Brazil",
+      "France"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "1e18f0aebdc30d3fca284a6cb9be11a5171827d4dee1b344c669e804e52bb412",
+      "anchor": "Project Ensemble Business Use Case Report (Published in October 2026)"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project Ensemble Taxonomy",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Ensemble-Taxonomy.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2026-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "71094673693fbc07cf5211bd14d0286e6e30053104b3e98b5bafa8ce693526dd",
+      "anchor": "Project Ensemble Taxonomy (Published in October 2026)"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project Ensemble Interoperability Standard",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Project-Ensemble-Interoperability-Standard.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2026-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "01135ebaaa8bb2b0170246b2a7a5599da26db708cd2a3f8e1bd4df3b2acaf156",
+      "anchor": "Project Ensemble Interoperability Standard (Published in October 2026)"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "e-HKD: A technical perspective",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_A_technical_perspective.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2021-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "983adae42147c9eaae7c883618951bfe1c89bfd3e5feec042f73f7edea4cc3ac",
+      "anchor": "was published in October 2021 to explore potential technical design options"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "e-HKD: A Policy and Design Perspective",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_A_Policy_and_Design_Perspective.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2022-04",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "aurum",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "aurum": "Aurum",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "7bcebfc51eea53cc5d818175e7d363689a1dcea95b249e7d2f98f77ed44424e9",
+      "anchor": "was published in April 2022. It discusses the potential benefits and challenges of an e-HKD"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "e-HKD \u2013 Charting the Next Steps",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2022/20220920e4a1.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2022-09",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "aurum",
+      "sela",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "Inthanon-LionRock",
+      "aurum": "Aurum",
+      "sela": "Sela",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Israel"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "cd024099fa51b43016c033083fbc934d17f36691d8d8a89b2a43c517e506e551",
+      "anchor": "in September 2022 to set out its policy stance on an e-HKD"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "e-HKD Pilot Programme Phase 2 Report",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_Pilot_Programme_Phase_2_Report.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2025-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "ensemble",
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "ensemble": "Project Ensemble",
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "Israel"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "768f42223ec583ea684ddc85dff09adceb589cb37bd9ebe4822b08faf13a3355",
+      "anchor": "in October 2025 to present the key findings and learnings"
+    }
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Fintech 2025: Media briefing",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/speeches/s20210608e1.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2021-06-08",
+    "published_precision": "day",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "title_evidence": "Fintech 2025",
+    "projects": [
+      "e_hkd",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_evidence": "8 June 2021"
+  },
+  {
+    "publisher": "HKMA",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "The HKMA\u2019s e-HKD Journey \u2014 Making Steady Strides Forward",
+    "url": "https://www.hkma.gov.hk/media/eng/publication-and-research/quarterly-bulletin/qb202309/fa1.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "",
+    "published_precision": "unknown",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "title_evidence": "The HKMA\u2019s e-HKD Journey \u2014 Making Steady Strides Forward",
+    "projects": [
+      "e_hkd",
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "publisher": "BIS",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project Aurum Phase 2: Privacy-enhancing technologies for digital cash",
+    "url": "https://www.bis.org/publications/project-aurum-phase-2-exploring-privacy-enhancing-technologies-digital-cash.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2026-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "title_evidence": "Privacy-enhancing technologies for digital cash",
+    "projects": [
+      "e_hkd",
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Brazil"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_evidence": "October 2026"
+  },
+  {
+    "publisher": "BIS",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "jurisdiction": "Hong Kong",
+    "title": "Project Aurum: A Prototype for Two-tier Central Bank Digital Currency (CBDC)",
+    "url": "https://www.bis.org/publications/project-aurum-prototype-two-tier-central-bank-digital-currency-cbdc.pdf",
+    "format": "pdf",
+    "authority": "primary",
+    "published": "2022-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "publication_page": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_evidence": "October 2022"
+  },
+  {
+    "title": "Central Bank Digital Currency (CBDC)",
+    "body_selector": ".template-top-background.full-content-printer",
+    "format": "html",
+    "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "publisher": "HKMA",
+    "kind": "Living project overview",
+    "topic": "CBDC",
+    "authority": "primary",
+    "published": "",
+    "published_precision": "unknown",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "ensemble",
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "Inthanon-LionRock",
+      "ensemble": "Project Ensemble",
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Project mBridge",
+    "body_selector": "article",
+    "format": "html",
+    "url": "https://www.bis.org/project/mbridge",
+    "publisher": "BIS",
+    "kind": "Living project overview",
+    "topic": "CBDC",
+    "authority": "primary",
+    "published": "",
+    "published_precision": "unknown",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Israel",
+      "Brazil",
+      "France"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Project Aurum 2.0",
+    "body_selector": "article",
+    "format": "html",
+    "url": "https://www.bis.org/project/aurum-2",
+    "publisher": "BIS",
+    "kind": "Living project overview",
+    "topic": "CBDC",
+    "authority": "primary",
+    "published": "",
+    "published_precision": "unknown",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "projects": [
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Project Sela",
+    "body_selector": "article",
+    "format": "html",
+    "url": "https://www.bis.org/project/sela",
+    "publisher": "BIS",
+    "kind": "Living project overview",
+    "topic": "CBDC",
+    "authority": "primary",
+    "published": "",
+    "published_precision": "unknown",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "projects": [
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Project Sela: an accessible and secure retail CBDC ecosystem",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/publications/project-sela-accessible-and-secure-retail-cbdc-ecosystem.pdf",
+    "kind": "Research / project report",
+    "topic": "CBDC",
+    "format": "pdf",
+    "published": "2023-09-12",
+    "published_precision": "day",
+    "collection": "hk_cbdc",
+    "authority": "primary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "projects": [
+      "e_hkd",
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.bis.org/publications/project-sela-accessible-and-secure-retail-cbdc-ecosystem",
+      "reviewed_sha256": "d838cdd2078968d7fd8009f3a340872d9600cbaed0a91d36cbfce19e5844e203",
+      "reviewed_raw_path": "data/raw/d838cdd2078968d7fd8009f3a340872d9600cbaed0a91d36cbfce19e5844e203.html",
+      "document_sha256": "70c7baf7a84c6fac2ba0c2c9befba834f84145fccb5b84d7dbd1b4c017ee41dd",
+      "anchor": "Date Published 12 September 2023"
+    }
+  },
+  {
+    "title": "HKMA Issues Position Paper on e-HKD",
+    "publisher": "Charltons",
+    "url": "https://www.charltonslaw.com/legal/newsletters/597/hkma-issues-position-paper-on-e-hkd.pdf",
+    "kind": "Legal commentary",
+    "topic": "CBDC",
+    "format": "pdf",
+    "published": "2022-10",
+    "published_precision": "month",
+    "collection": "hk_cbdc",
+    "authority": "secondary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "date_evidence": "October 2022",
+    "publication_page": "https://www.charltonslaw.com/hkma-issues-position-paper-on-e-hkd/",
+    "projects": [
+      "e_hkd",
+      "aurum",
+      "sela",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum",
+      "sela": "Sela",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand",
+      "United Arab Emirates",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "HKMA publishes \"e-HKD Pilot Programme Phase 1 Report\"",
+    "publisher": "HKSAR Government",
+    "originator": "HKMA",
+    "url": "https://www.info.gov.hk/gia/general/202310/30/P2023103000270.htm",
+    "format": "html",
+    "heading_selector": "#PRHeadlineSpan",
+    "body_selector": "#pressrelease",
+    "date_document_evidence": "Ends/Monday, October 30, 2023",
+    "published": "2023-10-30",
+    "published_precision": "day",
+    "kind": "Official project announcement",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "automatic_discovery": false,
+    "trust_env": false,
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "scope_note": "Official release summarising Phase 1 findings; NOT the full Phase 1 report."
+  },
+  {
+    "title": "Project Sela: Research with Bank of Israel on cybersecurity issues in context of retail CBDC",
+    "publisher": "HKSAR Government",
+    "originator": "HKMA",
+    "url": "https://www.info.gov.hk/gia/general/202206/17/P2022061700231p.htm",
+    "format": "html",
+    "heading_selector": "#PRHeadlineSpan",
+    "body_selector": "#pressrelease",
+    "date_document_evidence": "Ends/Friday, June 17, 2022",
+    "published": "2022-06-17",
+    "published_precision": "day",
+    "kind": "Official project announcement",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "automatic_discovery": false,
+    "trust_env": false,
+    "projects": [
+      "aurum",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "aurum": "Aurum",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Project LionRock-Inthanon: Cross-Border Payments Proof-of-Concept Leaflet",
+    "title_evidence": "Project LionRock-Inthanon",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/HKMA_BOT_Cross_Border_Payments_Proof_of_Concept_Project_Leaflet.pdf",
+    "format": "pdf",
+    "published": "2019-11",
+    "published_precision": "month",
+    "kind": "Project leaflet",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "automatic_discovery": false,
+    "trust_env": false,
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "LionRock-Inthanon"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "publication_date_provenance": {
+      "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+      "reviewed_sha256": "d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15",
+      "reviewed_raw_path": "data/raw/d97d13f823d2dfac0369a1e8fb9628b3e9d84be0059d90a4c73e58e8f386ce15.html",
+      "document_sha256": "81e9614aae6833cd32e8ab252a8bc8b79424403021a96f06bffeb8858ead416c",
+      "anchor": "The HKMA and the BOT jointly published a leaflet and a report in November 2019 and January 2020 respectively"
+    }
+  },
+  {
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2019/11/20191106-1/",
+    "title": "Keynote Speech at Hong Kong Fintech Week 2019",
+    "publisher": "HKMA",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "topic": "CBDC",
+    "collection": "hk_cbdc",
+    "authority": "primary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "kind": "Speech",
+    "published_precision": "day",
+    "published": "2019-11-06",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "06 Nov 2019",
+    "projects": [],
+    "project_mention_evidence": {},
+    "jurisdiction": "Hong Kong",
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "cbdc_types_mentioned": [],
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Reviewed CBDC historical context; no named project inferred.",
+    "context_scope_review": {
+      "scope": "hong_kong_cbdc_history",
+      "anchors": [
+        "joint research project with the Bank of Thailand",
+        "central bank digital currency"
+      ],
+      "reason": "HKMA speech describes cross-border CBDC research or interoperability, without naming a configured project.",
+      "reviewed_at": "2026-11-24T12:01:57Z"
+    }
+  },
+  {
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2020/11/20201102-1/",
+    "title": "Keynote Speech at the Hong Kong FinTech Week 2020",
+    "publisher": "HKMA",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "topic": "CBDC",
+    "collection": "hk_cbdc",
+    "authority": "primary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "kind": "Speech",
+    "published_precision": "day",
+    "published": "2020-11-02",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "02 Nov 2020",
+    "projects": [],
+    "project_mention_evidence": {},
+    "jurisdiction": "Hong Kong",
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "cbdc_types_mentioned": [],
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Reviewed CBDC historical context; no named project inferred.",
+    "context_scope_review": {
+      "scope": "hong_kong_cbdc_history",
+      "anchors": [
+        "We are collaborating with the Bank of Thailand",
+        "Central Bank Digital Currency"
+      ],
+      "reason": "HKMA speech describes cross-border CBDC research or interoperability, without naming a configured project.",
+      "reviewed_at": "2026-11-24T12:01:57Z"
+    }
+  },
+  {
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/08/20230824-1/",
+    "title": "Welcoming Remarks at the Workshop on \"Recent Developments and Future Prospects of the International Monetary System\"",
+    "publisher": "HKMA",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "topic": "CBDC",
+    "collection": "hk_cbdc",
+    "authority": "primary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "kind": "Speech",
+    "published_precision": "day",
+    "published": "2023-08-24",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "24 Aug 2023",
+    "projects": [],
+    "project_mention_evidence": {},
+    "jurisdiction": "Hong Kong",
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "cbdc_types_mentioned": [],
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Reviewed CBDC historical context; no named project inferred.",
+    "context_scope_review": {
+      "scope": "hong_kong_cbdc_history",
+      "anchors": [
+        "many global central banks including the HKMA",
+        "central bank digital currencies"
+      ],
+      "reason": "HKMA speech describes cross-border CBDC research or interoperability, without naming a configured project.",
+      "reviewed_at": "2026-11-24T12:01:58Z"
+    }
+  },
+  {
+    "url": "https://www.info.gov.hk/gia/general/202201/26/P2022012600214.htm",
+    "title": "LCQ15: Application of Central Bank Digital Currency in Hong Kong",
+    "publisher": "HKSAR Government",
+    "format": "html",
+    "heading_selector": "#PRHeadlineSpan",
+    "body_selector": "#pressrelease",
+    "topic": "CBDC",
+    "collection": "hk_cbdc",
+    "authority": "primary",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "kind": "Legislative Council reply",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "e_cny_hk": "digital Renminbi"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "published": "2022-01-26",
+    "date_document_evidence": "Ends/Wednesday, January 26, 2022",
+    "scope_note": "Dated government reply on retail/wholesale CBDC, banking implications and cross-border e-CNY; not current issuance status."
+  },
+  {
+    "url": "https://www.linklaters.com/knowledge/articles/alerts-newsletters-and-guides/2025/november/12/asia-fintech-and-payments-regulatory-update---november-2025",
+    "title": "Asia Fintech and Payments Regulatory Update - November 2025",
+    "publisher": "Linklaters",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "p:-soup-contains(\"Prioritising the development of wholesale uses for e-HKD\")",
+    "topic": "CBDC",
+    "collection": "hk_cbdc",
+    "authority": "secondary",
+    "kind": "Legal commentary excerpt",
+    "published": "2025-11-12",
+    "published_precision": "day",
+    "date_document_evidence": "12 November 2025",
+    "trust_env": false,
+    "automatic_discovery": false,
+    "text_scope": "Only the e-HKD paragraph is indexed; original full newsletter HTML retained.",
+    "scope_note": "Secondary interpretation of HKMA Phase 2 findings, not binding regulation or independent confirmation; unrelated newsletter sections not indexed.",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification."
+  },
+  {
+    "title": "Keynote Speech at Hong Kong Digital Finance Summit 2026",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2026-05-29",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "ensemble",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "ensemble": "Project Ensemble",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "29 May 2026",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2026/05/20260529-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Keynote speech at the Treasury Markets Summit 2024",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-09-27",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "27 Sep 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2024/09/20240927-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Opening Remarks at Launch Ceremony for Project Ensemble Sandbox",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-08-28",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "France"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "28 Aug 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2024/08/20240828-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Keynote Speech at ASIFMA Annual Conference",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-02-29",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "29 Feb 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2024/02/20240229-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Keynote at the Hong Kong FinTech Week 2023",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-11-02",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "02 Nov 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/11/20231102-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Welcoming Remarks at the CBDC Expert Group Memorandum of Understanding (MoU) Signing Ceremony",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-10-20",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "20 Oct 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/10/20231020-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Opening Remarks at the Project Sela Report Launch Conference",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-09-12",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge",
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge",
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Israel"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "12 Sep 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/09/20230912-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Keynote speech at the Treasury Markets Summit 2023",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-09-04",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "04 Sep 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/09/20230904-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Opening remarks at the commencement event of e-HKD Pilot Programme",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2023-05-18",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "18 May 2023",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2023/05/20230518-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Opening Keynote at the Hong Kong FinTech Week 2022",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2022-10-31",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "31 Oct 2022",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2022/10/20221031-1/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Opening remarks at HKAB Fintech Seminar: Next Phase of Hong Kong\u2019s Fintech Journey \u2013 \"Fintech 2025\"",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2021-06-08",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "08 Jun 2021",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2021/06/20210608-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Four essential Q&As for e-HKD",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2022-04-27",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "27 Apr 2022",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2022/04/20220427/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "A New Trend for Fintech - Cross-border Payment",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2020-12-04",
+    "published_precision": "day",
+    "projects": [
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "04 Dec 2020",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2020/12/20201204/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2026-11-02",
+    "published_precision": "day",
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "02 Nov 2026",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKEX and HKMA Launch Pilot Project to Enable Digital Payment Solution for Derivatives After-Hours Trading",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2026-06-18",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "18 Jun 2026",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260618-8/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA establishes Tokenised Bond Expert Group",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2026-06-05",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "05 Jun 2026",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260605-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA announces the new phase of Project Ensemble to support real-value transactions in tokenised deposits and digital assets",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2025-11-13",
+    "published_precision": "day",
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "13 Nov 2025",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA completes e-HKD Pilot Programme and outlines future direction of e-HKD",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2025-10-28",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "28 Oct 2025",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/10/20251028-4/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Hong Kong FinTech Week 2024",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-10-28",
+    "published_precision": "day",
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Brazil"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "28 Oct 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241028-5/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Hong Kong Monetary Authority partners with Bank of Thailand on Cross-Border Tokenisation Initiatives",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-10-28",
+    "published_precision": "day",
+    "projects": [
+      "mbridge",
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "Inthanon-LionRock",
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Thailand"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "28 Oct 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241028-4/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Hong Kong Monetary Authority partners with Banco Central do Brasil on Cross-Border Tokenisation Initiatives",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-10-28",
+    "published_precision": "day",
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Brazil"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "28 Oct 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241028-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA commences Phase 2 of e-HKD Pilot Programme and expands Project e-HKD to explore new forms of digital money",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-09-23",
+    "published_precision": "day",
+    "projects": [
+      "e_hkd"
+    ],
+    "project_mention_evidence": {
+      "e_hkd": "e-HKD"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "23 Sep 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/09/20240923-3/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Project mBridge: connecting economies through CBDC",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2022-10-26",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "26 October 2022",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/publications/project-mbridge-connecting-economies-through-cbdc",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.bis.org/project/mbridge",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Inthanon-LionRock to mBridge: building a multi CBDC platform for international payments",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2021-09-28",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "Inthanon-LionRock"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "28 September 2021",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/publications/inthanon-lionrock-mbridge-building-multi-cbdc-platform-international-payments",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.bis.org/project/mbridge",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Project mBridge reaches minimum viable product stage and invites further international participation",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2024-06-05",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "5 June 2024",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/media-releases/20240605-project-mbridge-reaches-minimum-viable-product-stage-and-invites-further-international",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.bis.org/project/mbridge",
+    "automatic_discovery": true
+  },
+  {
+    "title": "BIS and four central banks complete successful pilot of real-value transactions on cross-border CBDC platform",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2022-10-26",
+    "published_precision": "day",
+    "projects": [
+      "mbridge",
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge",
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Stablecoins"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "26 October 2022",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/media-releases/20221026-bis-and-four-central-banks-complete-successful-pilot-real-value-transactions-cross-border-cbdc",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.bis.org/project/mbridge",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Multi-CBDC prototype shows potential for reducing costs and speeding up cross-border payments",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2021-09-28",
+    "published_precision": "day",
+    "projects": [
+      "mbridge",
+      "e_cny_hk"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge",
+      "e_cny_hk": "e-CNY"
+    },
+    "cbdc_types_mentioned": [
+      "retail",
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "28 September 2021",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/media-releases/20210928-multi-cbdc-prototype-shows-potential-reducing-costs-and-speeding-cross-border-payments",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.bis.org/project/mbridge",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Project Aurum Phase 2: exploring privacy-enhancing technologies for digital cash",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2026-10-13",
+    "published_precision": "day",
+    "projects": [
+      "aurum"
+    ],
+    "project_mention_evidence": {
+      "aurum": "Aurum"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "13 October 2026",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/publications/project-aurum-phase-2-exploring-privacy-enhancing-technologies-digital-cash",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.bis.org/project/aurum-2",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Project Sela: an accessible and secure retail CBDC ecosystem",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": "article",
+    "published": "2023-09-12",
+    "published_precision": "day",
+    "projects": [
+      "sela"
+    ],
+    "project_mention_evidence": {
+      "sela": "Sela"
+    },
+    "cbdc_types_mentioned": [
+      "retail"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_document_evidence": "12 September 2023",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/publications/project-sela-accessible-and-secure-retail-cbdc-ecosystem",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Research / project update",
+    "discovery_url": "https://www.bis.org/project/sela",
+    "automatic_discovery": true
+  },
+  {
+    "title": "Project mBridge reaches MVP stage",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-06-05",
+    "published_precision": "day",
+    "projects": [
+      "mbridge"
+    ],
+    "project_mention_evidence": {
+      "mbridge": "mBridge"
+    },
+    "cbdc_types_mentioned": [],
+    "asset_classes_mentioned": [
+      "CBDC"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong",
+      "Mainland China",
+      "Thailand",
+      "United Arab Emirates",
+      "Saudi Arabia"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "05 Jun 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/06/20240605-4/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  },
+  {
+    "title": "HKMA establishes the Project Ensemble Architecture Community",
+    "format": "html",
+    "heading_selector": "h1",
+    "body_selector": ".template-content-area",
+    "published": "2024-05-07",
+    "published_precision": "day",
+    "projects": [
+      "ensemble"
+    ],
+    "project_mention_evidence": {
+      "ensemble": "Project Ensemble"
+    },
+    "cbdc_types_mentioned": [
+      "wholesale"
+    ],
+    "asset_classes_mentioned": [
+      "CBDC",
+      "Tokenised deposits"
+    ],
+    "jurisdictions_mentioned": [
+      "Hong Kong"
+    ],
+    "jurisdiction": "Hong Kong",
+    "project_stage": "not_assessed",
+    "legal_status": "not_assessed",
+    "classification_note": "Deterministic document mentions. Regions are not a participant list; type mentions are not a project-wide classification.",
+    "date_selector": ".content-area > .date",
+    "date_evidence": "07 May 2024",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/05/20240507-4/",
+    "topic": "CBDC",
+    "authority": "primary",
+    "collection": "hk_cbdc",
+    "trust_env": false,
+    "kind": "Press release",
+    "discovery_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "automatic_discovery": true
+  }
+]

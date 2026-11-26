@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/Report_on_Project_Inthanon-LionRock.pdf",
+    "published": "2020-01",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "The HKMA and the BOT jointly published a leaflet and a report in November 2019 and January 2020 respectively"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/Inthanon-LionRock_to_mBridge_Building_a_multi_CBDC_platform_for_international_payments.pdf",
+    "published": "2021-09",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "Participating institutions jointly published a report in September 2021"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/mBridge_Building_a_multi_CBDC_platform_for_international_payments.pdf",
+    "published": "2021-11",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "A brochure was published in November 2021"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Project-Ensemble-Business-Use-Case-Report.pdf",
+    "published": "2026-10",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "Project Ensemble Business Use Case Report (Published in October 2026)"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Ensemble-Taxonomy.pdf",
+    "published": "2026-10",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "Project Ensemble Taxonomy (Published in October 2026)"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/cbdc/Project-Ensemble-Interoperability-Standard.pdf",
+    "published": "2026-10",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "Project Ensemble Interoperability Standard (Published in October 2026)"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_A_technical_perspective.pdf",
+    "published": "2021-10",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "was published in October 2021 to explore potential technical design options"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_A_Policy_and_Design_Perspective.pdf",
+    "published": "2022-04",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "was published in April 2022. It discusses the potential benefits and challenges of an e-HKD"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2022/20220920e4a1.pdf",
+    "published": "2022-09",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "in September 2022 to set out its policy stance on an e-HKD"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/e-HKD_Pilot_Programme_Phase_2_Report.pdf",
+    "published": "2025-10",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "in October 2025 to present the key findings and learnings"
+  },
+  {
+    "url": "https://www.bis.org/publications/project-sela-accessible-and-secure-retail-cbdc-ecosystem.pdf",
+    "published": "2023-09-12",
+    "precision": "day",
+    "source_url": "https://www.bis.org/publications/project-sela-accessible-and-secure-retail-cbdc-ecosystem",
+    "anchor": "Date Published 12 September 2023"
+  },
+  {
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/HKMA_BOT_Cross_Border_Payments_Proof_of_Concept_Project_Leaflet.pdf",
+    "published": "2019-11",
+    "precision": "month",
+    "source_url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "anchor": "The HKMA and the BOT jointly published a leaflet and a report in November 2019 and January 2020 respectively"
+  }
+]

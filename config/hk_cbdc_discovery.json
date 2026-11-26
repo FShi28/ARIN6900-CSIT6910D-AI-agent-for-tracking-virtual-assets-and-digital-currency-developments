@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hkma_cbdc_topic",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "heading": "Central Bank Digital Currency (CBDC)",
+    "body_selector": ".template-top-background.full-content-printer",
+    "scope": "Direct English publication links only; PDFs require review"
+  },
+  {
+    "id": "hkma_cbdc_press",
+    "publisher": "HKMA",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/central-bank-digital-currency",
+    "heading": "Press Releases",
+    "body_selector": "#press-release-result",
+    "scope": "Latest visible CBDC press release page, not the historical archive"
+  },
+  {
+    "id": "bis_mbridge",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/project/mbridge",
+    "heading": "Project mBridge",
+    "body_selector": "article",
+    "scope": "Direct publication and media-release links"
+  },
+  {
+    "id": "bis_aurum2",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/project/aurum-2",
+    "heading": "Project Aurum 2.0",
+    "body_selector": "article",
+    "scope": "Direct publication and media-release links"
+  },
+  {
+    "id": "bis_sela",
+    "publisher": "BIS",
+    "url": "https://www.bis.org/project/sela",
+    "heading": "Project Sela",
+    "body_selector": "article",
+    "scope": "Direct publication and media-release links"
+  }
+]

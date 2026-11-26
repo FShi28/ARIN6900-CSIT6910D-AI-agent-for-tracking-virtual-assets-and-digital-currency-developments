@@ -1,0 +1,10 @@
+[
+  {"id":"phase_comparison","question":"e-HKD 第一、二阶段的重点和政策方向有什么变化？","expected":"supported","evidence_ids":["phase1_findings","phase1_limitations","ehkd_use_cases","ehkd_retail_policy"],"limits":"使用2023年和2025年各自的公告；第一阶段报告全文仍未取得。"},
+  {"id":"mbridge_history","question":"mBridge 达到什么阶段，BIS 移交是否意味着所有合作方都停止项目？","expected":"supported","evidence_ids":["mbridge_mvp","mbridge_handover"],"limits":"只能陈述有证据的历史里程碑；不能从BIS项目状态推断全部参与方的现时运营状态。"},
+  {"id":"aurum_privacy","question":"Aurum 第二阶段研究如何兼顾隐私和合规？","expected":"supported","evidence_ids":["aurum2_privacy","aurum2_compliance"],"limits":"原型和研究设计，不是香港现行合规义务清单。"},
+  {"id":"sela_scope","question":"Sela 是什么研究，能否当作已上线跨境支付网络？","expected":"supported","evidence_ids":["sela_initial_research","sela_poc"],"limits":"来源支持零售CBDC联合研究及概念验证，不能据此推导已上线跨境网络。"},
+  {"id":"ecny_usage","question":"香港居民在2024年的跨境 e-CNY 试点中如何充值，有哪些使用限制？","expected":"supported","evidence_ids":["ecny_hk_pilot","ecny_fps"],"limits":"钱包功能、银行数量均限定于2024年公告，不当作实时产品规格。"},
+  {"id":"wholesale_money","question":"Ensemble 的央行货币结算安排在2025年至2026年怎样变化？","expected":"supported","evidence_ids":["ensemble_2025_pilot","ensemble_2026_settlement"],"limits":"只核查CBDC/央行货币结算；不扩展代币化存款产品或其他代币化资产。"},
+  {"id":"phase1_fulltext","question":"第一阶段报告每个附件的完整内容是否已在资料库中？","expected":"insufficient","evidence_ids":[],"limits":"没有。官方发布说明不能替代受提取限制的PDF全文或全部附件。"},
+  {"id":"retail_launch_date","question":"能否从现有资料给出面向全体公众的零售 e-HKD 确定推出日期？","expected":"insufficient","evidence_ids":[],"limits":"现有审核证据不足以给出确定日期；不能把试点结束或准备工作目标日期当作公众发行日期。"}
+]

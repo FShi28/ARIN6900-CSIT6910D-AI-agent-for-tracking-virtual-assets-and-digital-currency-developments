@@ -1,0 +1,69 @@
+[
+  {
+    "id": "e_hkd",
+    "name": "e-HKD / e-HKD+",
+    "jurisdiction": "Hong Kong",
+    "lead_authority": "HKMA",
+    "currency": "HKD",
+    "cbdc_scope": ["retail research and pilots", "wholesale applications"],
+    "application_scope": "Domestic payments and settlement; specific cross-border use cases must be checked in individual reports",
+    "evidence_ids": ["ehkd_retail_policy", "ehkd_use_cases"],
+    "note": "e-HKD+ also studies tokenised deposits, which are a separate type of money. Do not equate completion of the retail pilot with public retail issuance."
+  },
+  {
+    "id": "mbridge",
+    "name": "Inthanon-LionRock / Project mBridge",
+    "jurisdiction": "Hong Kong participation in a multi-jurisdiction project",
+    "lead_authority": "Participating central banks and monetary authorities; BIS Innovation Hub historical collaboration",
+    "currency": "Multiple participating currencies; consult the dated report for the specific transaction set",
+    "cbdc_scope": ["wholesale cross-border CBDC"],
+    "application_scope": "Cross-border payments, foreign exchange and payment-versus-payment settlement",
+    "partner_jurisdictions_as_of_2024": ["Hong Kong", "Mainland China", "Thailand", "United Arab Emirates", "Saudi Arabia"],
+    "evidence_ids": ["mbridge_mvp", "mbridge_handover"],
+    "note": "Observers are not full participants. BIS project status Concluded describes BIS involvement and must not be used to assert that all partner operations ceased."
+  },
+  {
+    "id": "ensemble",
+    "name": "Project Ensemble / EnsembleTX",
+    "jurisdiction": "Hong Kong; individual international collaborations tagged in source documents",
+    "lead_authority": "HKMA",
+    "currency": "HKD settlement context; tokenised Central Bank Money and tokenised deposits must remain distinct",
+    "cbdc_scope": ["wholesale settlement"],
+    "application_scope": "Interbank settlement of tokenised deposits and tokenised asset transactions",
+    "evidence_ids": ["ensemble_2025_pilot", "ensemble_2026_settlement"],
+    "note": "Keep 2024 experimentation, 2025 RTGS-based pilot, and 2026 tokenised CeBM settlement milestones separate."
+  },
+  {
+    "id": "aurum",
+    "name": "Project Aurum / Aurum Phase 2",
+    "jurisdiction": "Hong Kong research collaboration",
+    "lead_authority": "BIS Innovation Hub Hong Kong Centre in collaboration with HKMA and research partners",
+    "currency": "Experimental digital cash architecture; no issued currency inferred",
+    "cbdc_scope": ["retail CBDC architecture", "supporting wholesale interbank layer"],
+    "application_scope": "Two-tier prototype, privacy-enhancing technologies and compliance research",
+    "evidence_ids": ["aurum2_privacy", "aurum2_compliance"],
+    "note": "International collaboration does not by itself make this a live cross-border payment system. CBDC-backed stablecoin experiments are not the Hong Kong licensed stablecoin regime."
+  },
+  {
+    "id": "sela",
+    "name": "Project Sela",
+    "jurisdiction": "Hong Kong and Israel research collaboration",
+    "lead_authority": "BIS Innovation Hub, HKMA and Bank of Israel",
+    "currency": "Experimental retail CBDC; no issued currency inferred",
+    "cbdc_scope": ["retail CBDC"],
+    "application_scope": "Access, intermediary roles and cyber security",
+    "evidence_ids": ["sela_poc"],
+    "note": "A cross-jurisdiction research collaboration, not evidence of an operational Hong Kong-Israel payment corridor."
+  },
+  {
+    "id": "e_cny_hk",
+    "name": "Cross-boundary e-CNY pilot in Hong Kong",
+    "jurisdiction": "Hong Kong and Mainland China",
+    "lead_authority": "PBoC and HKMA cross-boundary collaboration; e-CNY is not issued by HKMA",
+    "currency": "CNY",
+    "cbdc_scope": ["retail cross-boundary CBDC use"],
+    "application_scope": "Wallet access, FPS top-ups and Mainland merchant payments for Hong Kong residents",
+    "evidence_ids": ["ecny_hk_pilot", "ecny_fps"],
+    "note": "Usage limits and participating bank counts belong to the dated announcement, not an automatically current product specification."
+  }
+]

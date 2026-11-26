@@ -43,9 +43,13 @@ class Fetcher:
 
     def _request(self, url, expected_type, payload=None):
         current = allowed_url(url, self.hosts)
+        budget = self.options.get('download_budget_seconds')
+        deadline = time.monotonic() + budget if budget else None
         redirects = 0
         attempts = 0
         while True:
+            if deadline is not None and time.monotonic() >= deadline:
+                raise PipelineError('Download time budget exceeded; prior snapshot retained')
             if self.last_request is not None:
                 time.sleep(max(0, self.options['min_interval_seconds'] - (time.monotonic() - self.last_request)))
             self.last_request = time.monotonic()
@@ -79,7 +83,9 @@ class Fetcher:
                     if media_type != expected_type:
                         raise PipelineError(f'Expected {expected_type}, received {media_type or "missing MIME"}')
                     data = bytearray()
-                    for block in response.iter_content(chunk_size=65536):
+                    for block in response.iter_content(chunk_size=1024 if deadline else 65536):
+                        if deadline is not None and time.monotonic() >= deadline:
+                            raise PipelineError('Download time budget exceeded; prior snapshot retained')
                         data.extend(block)
                         if len(data) > self.options['max_bytes']:
                             raise PipelineError('Response exceeds configured size limit')

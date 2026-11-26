@@ -151,7 +151,8 @@ def collect_once(root, db_path, *, include_supplementary=True, source_ids=None):
         from regional_ingestion import collect_regions
         results.extend(collect_regions(root))
     if include_supplementary and ((root / 'config/research_sources.json').exists()
-                                  or (root / 'config/hk_stablecoin_sources.json').exists()):
+                                  or (root / 'config/hk_stablecoin_sources.json').exists()
+                                  or (root / 'config/hk_cbdc_sources.json').exists()):
         from research_publications import collect_research
         results.extend(collect_research(root))
     if include_supplementary and (root / 'config/hk_discovery.json').exists():
@@ -162,6 +163,13 @@ def collect_once(root, db_path, *, include_supplementary=True, source_ids=None):
                    if r.get('error_type') == 'SourceAccessError'}
         results.extend(discover_hk(root, blocked))
         export_corpus(root)
+    if include_supplementary and (root / 'config/hk_cbdc_discovery.json').exists():
+        from urllib.parse import urlsplit
+        from hk_cbdc_collection import cycle
+        blocked = {urlsplit(r['source_url']).hostname for r in results
+                   if r.get('error_type') == 'SourceAccessError'}
+        # Fixed CBDC URLs were refreshed above together with the shared library.
+        results.extend(cycle(root, refresh=False, blocked_hosts=blocked)['results'])
     counts = {key: sum(item['status'] == key for item in results) for key in ('created', 'reused', 'failed')}
     return {'status': 'partial_failure' if counts['failed'] else 'success',
             'counts': counts, 'remaining': remaining, 'stopped_for_source_access': stopped,
